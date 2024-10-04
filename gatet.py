@@ -97,3 +97,5 @@ jdhshsh%7C1722164426%7CQkqnUBtPMRYcYpcvKhriZedlcVJsl24RrNRohG9rVRM%7Cbb8a8b162fd
 			data=data,
 	)
 	return (r2.json()['errors'])
+def sq(card):
+    return 'Close Soon Come Back'
