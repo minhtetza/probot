@@ -349,7 +349,7 @@ def menu_callback(call):
 					
 					start_time = time.time()
 					try:
-						last = str(sq(cc))
+						last = str(Tele2(cc))
 					except Exception as e:
 						print(e)
 						last = "ERROR"
