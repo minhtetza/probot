@@ -388,7 +388,7 @@ def menu_callback(call):
 𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 
 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: @CHITNGE54
 𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
-					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: insufficient funds' in last or 'Thank you for your message.' in last or 'Duplicate' in last or 'Approved' in last:
+					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: The card insufficient funds' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
 					elif 'risk' in last:
