@@ -56,11 +56,10 @@ def start(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 	''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
@@ -90,7 +89,7 @@ def start(message):
 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$ ✅ <code>/chk</code> 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘 
 
-𝗦𝘁𝗿𝗶𝗽𝗲 𝗔𝘂𝘁𝗵  💵  ❎ <code>/vbv</code> 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
+𝗕𝗿𝗮𝗶𝗻𝘁𝗿𝗲𝗲 𝗖𝗵𝗮𝗿𝗴𝗲  <code>/sex</code> 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘
 
 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝗱𝗱𝗶𝗻𝗴 𝗦𝗼𝗺𝗲 𝗚𝗮𝘁𝗲𝘄𝗮𝘆𝘀 𝗔𝗻𝗱 𝗧𝗼𝗼𝗹𝘀 𝗦𝗼𝗼𝗻</b>
@@ -127,11 +126,10 @@ def main(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 ''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
@@ -149,11 +147,10 @@ def main(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 ''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
@@ -172,8 +169,8 @@ def main(message):
 				json.dump(json_data, file, indent=2)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$💵",callback_data='br')
-		sw = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗔𝘂𝘁𝗵 🟢",callback_data='sq')
+		contact_button = types.InlineKeyboardButton(text=f"🎉 𝗕𝗿𝗮𝗶𝗻𝘁𝗿𝗲𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 💵",callback_data='br')
+		sw = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$💵",callback_data='sq')
 		keyboard.add(contact_button)
 		keyboard.add(sw)
 		bot.reply_to(message, text=f'𝐂𝐡𝐨𝐨𝐬𝐞 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐔𝐬𝐞',reply_markup=keyboard)
@@ -259,23 +256,24 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
-𝐁𝐨𝐭 𝐁𝐲 @Ownerxxxxx''', reply_markup=mes)
+𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
-					msg=f'''𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-			
-𝐂𝐚𝐫𝐝: <code>{cc}</code>
-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: {gate}		
-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Successful 🟢
+					msg=f'''
+<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Charge</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
-𝐈𝐧𝐟𝐨: {card_type} - {brand}
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country} - {country_flag} 
-𝐁𝐢𝐧: {cc[:6]}
-𝐁𝐚𝐧𝐤: {bank}
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 
-𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: @CHITNGE54
-𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
-					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: The card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Approved' in last:
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+					if "success" in last or 'Approved ✅' in last or 'Approved ✅! CVV' in last or 'Approved ✅! Live' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
 					elif 'risk' in last:
@@ -361,9 +359,9 @@ def menu_callback(call):
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
 					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
-					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :         [ {ccnn} ] •", callback_data='x')
+					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
-					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :         [ {riskk} ] •", callback_data='x')
+					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :              [ {riskk} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
 					stop=types.InlineKeyboardButton(f"[ ⌧ 𝐒𝐓𝐎𝐏 🚫 ]", callback_data='stop')
 					mes.add(cm1,status, cm3,ccn,risk, cm4, cm5, stop)
@@ -372,23 +370,24 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
-𝐁𝐨𝐭 𝐁𝐲 @Ownerxxxxx''', reply_markup=mes)
+𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
-					msg=f'''<b>𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-			
-𝐂𝐚𝐫𝐝: <code>{cc}</code>
-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: {gate}		
-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: SUCCESSFUL 🟢
+					msg=f'''<b>
+<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 3$</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code> SUCCESS 🟢</code>
 
-𝐈𝐧𝐟𝐨: {card_type} - {brand}
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country} - {country_flag} 
-𝐁𝐢𝐧: {cc[:6]}
-𝐁𝐚𝐧𝐤: {bank}
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 
-𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: @CHITNGE54
-𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
-					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: The card insufficient funds' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Approved' in last:
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: The card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
 					elif 'risk' in last:
@@ -407,7 +406,7 @@ def menu_callback(call):
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.chk') or message.text.lower().startswith('/chk'))
-def respond_to_vbv(message):
+def respond_to_sex(message):
 	gate='Stripe Charge 3$'
 	name = message.from_user.first_name
 	idt=message.from_user.id
@@ -439,11 +438,10 @@ def respond_to_vbv(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -461,11 +459,10 @@ def respond_to_vbv(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
@@ -506,7 +503,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	start_time = time.time()
 	try:
 		command_usage[idt]['last_time'] = datetime.now()
-		last = str(Tele(cc))
+		last = str(Tele2(cc))
 	except Exception as e:
 		last='Error'
 	try: data = requests.get('https://bins.antipublic.cc/bins/'+cc[:6]).json()
@@ -531,39 +528,42 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-			
-𝐂𝐚𝐫𝐝: <code>{cc}</code>
-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: {gate}		
-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: SUCCESSFUL 🟢
+	msg=f'''
+<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟	</a>		
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
 
-𝐈𝐧𝐟𝐨: {card_type} - {brand}
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country} - {country_flag} 
-𝐁𝐢𝐧: {cc[:6]}
-𝐁𝐚𝐧𝐤: {bank}
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 
-𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
-	msgd=f'''𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
-			
-𝐂𝐚𝐫𝐝: <code>{cc}</code>
-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: {gate}		
-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Your Card Was Declined 🚫
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+	msgd=f'''
+<a href='t.me/Approved_Raven'>-</a> 𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Your Card Declined 🚫</code>
 
-𝐈𝐧𝐟𝐨: {card_type} - {brand}
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country} - {country_flag} 
-𝐁𝐢𝐧: {cc[:6]}
-𝐁𝐚𝐧𝐤: {bank}
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬
-𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: @CHITNGE54
-𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
 	if "Thank you for your message." in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: insufficient funds' in last or 'success' in last or 'Duplicate' in last or 'Approved' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msgd)
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.redeem') or message.text.lower().startswith('/redeem'))
-def respond_to_vbv(message):
+def respond_to_sex(message):
 	def my_function():
 		global stop
 		try:
@@ -632,8 +632,8 @@ def start(message):
 			bot.reply_to(message,e,parse_mode="HTML")
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
-@bot.message_handler(func=lambda message: message.text.lower().startswith('.vbv') or message.text.lower().startswith('/vbv'))
-def respond_to_vbv(message):
+@bot.message_handler(func=lambda message: message.text.lower().startswith('.sex') or message.text.lower().startswith('/sex'))
+def respond_to_sex(message):
 	id=message.from_user.id
 	name = message.from_user.first_name
 	gate='3𝑫𝑺 𝑳𝒐𝒐𝒌𝒖𝒑'
@@ -663,11 +663,10 @@ def respond_to_vbv(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -685,11 +684,10 @@ def respond_to_vbv(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-𝐃𝐚𝐲 =    2$
 3𝐝𝐚𝐲𝐬 = . 5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 @Ownerxxxxx</b>
+𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
@@ -720,13 +718,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		return
 	start_time = time.time()
 	try:
-		response = requests.post(
-		f'https://rimuruchkbot.alwaysdata.net/vbv.php?bin={cc}')
-		last=(response.json()['result'])
-		if 'result not found' in last:
-			last='Authenticate Frictionless Failed'
+		command_usage[idt]['last_time'] = datetime.now()
+		last = str(Tele2(cc))
 	except Exception as e:
-		last='Error'
+		last='Close Cmds Now 🚫'
 	try: data = requests.get('https://bins.antipublic.cc/bins/'+cc[:6]).json()
 	except: pass
 	try:
@@ -749,35 +744,37 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-			
-𝐂𝐚𝐫𝐝: <code>{cc}</code>
-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: {gate}		
-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: SUCCESSFUL 🟢
+	msg=f'''
+<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟	</a>		
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Charge</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
-𝐈𝐧𝐟𝐨: {card_type} - {brand}
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country} - {country_flag} 
-𝐁𝐢𝐧: {cc[:6]}
-𝐁𝐚𝐧𝐤: {bank}
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 
-𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: @CHITNGE54
-𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
-	msgd=f'''𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
-			
-𝐂𝐚𝐫𝐝: <code>{cc}</code>
-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: {gate}		
-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Your Card Was Declined 🚫
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+	msgd=f'''
+<a href='t.me/Approved_Raven'>-</a> 𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟	</a>		
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Charge</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
-𝐈𝐧𝐟𝐨: {card_type} - {brand}
-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country} - {country_flag} 
-𝐁𝐢𝐧: {cc[:6]}
-𝐁𝐚𝐧𝐤: {bank}
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-𝐓𝐢𝐦𝐞: {"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬
-𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: @CHITNGE54
-𝐁𝐨𝐭 𝐁𝐨𝐲: @Ownerxxxxx'''
-	if 'Thank you for your message.' in last or 'Stripe Error: Your card number is incorrect.' in last or 'success' in last:
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+	if 'Approved ✅' in last or 'Approved ✅! CVV' in last or 'Approved ✅! Live' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text= msgd)
