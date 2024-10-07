@@ -13,7 +13,7 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7336963132:AAEhc8nx44FnZGfrYs-cAADDkMRsDumEBBg'
+token = '7336963132:AAFlYC_Z8_sPUEtyGnKzSZxvMBfrUtUB1w0'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=6191863486 
 command_usage = {}
@@ -544,20 +544,20 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
 	msgd=f'''
-<a href='t.me/Approved_Raven'>-</a> 𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
-<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
-<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
-<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Your Card Declined 🚫</code>
+-𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
+┏━━━━━━━⍟	
+┃𝐂𝐂: <code>{cc}</code>
+┗━━━━━━━━━━━⊛
+-𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 3$</code>		
+-𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code> Card Was Declined 🚫</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+-𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+-𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+-𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+-𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+-𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+-𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
 	if "Thank you for your message." in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: insufficient funds' in last or 'success' in last or 'Duplicate' in last or 'Approved' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
