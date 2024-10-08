@@ -13,7 +13,7 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7336963132:AAGijc7ekcf0C1y9-xrUSBDVSlOF7a5rYy0'
+token = '7336963132:AAERy5VBtFnxVUxZVkq9_GLn0eJHuGaeuac'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=6191863486 
 command_usage = {}
@@ -86,10 +86,10 @@ def start(message):
 	bot.send_message(chat_id=message.chat.id, text=f'''<b> 
 𝗧𝗵𝗲𝘀𝗲 𝗔𝗿𝗲 𝗧𝗵𝗲 𝗕𝗼𝘁'𝗦 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 
-𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$ ✅ <code>/chk</code> 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
+𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$ ✅ /chk 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘 
 
-𝗕𝗿𝗮𝗶𝗻𝘁𝗿𝗲𝗲 𝗖𝗵𝗮𝗿𝗴𝗲  <code>/sex</code> 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
+𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 12.99$ /sex 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘
 
 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝗱𝗱𝗶𝗻𝗴 𝗦𝗼𝗺𝗲 𝗚𝗮𝘁𝗲𝘄𝗮𝘆𝘀 𝗔𝗻𝗱 𝗧𝗼𝗼𝗹𝘀 𝗦𝗼𝗼𝗻</b>
@@ -169,8 +169,8 @@ def main(message):
 				json.dump(json_data, file, indent=2)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text=f"🎉 𝗕𝗿𝗮𝗶𝗻𝘁𝗿𝗲𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 💵",callback_data='br')
-		sw = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$💵",callback_data='sq')
+		contact_button = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$",callback_data='br')
+		sw = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 12.99$",callback_data='sq')
 		keyboard.add(contact_button)
 		keyboard.add(sw)
 		bot.reply_to(message, text=f'𝐂𝐡𝐨𝐨𝐬𝐞 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐔𝐬𝐞',reply_markup=keyboard)
@@ -247,8 +247,33 @@ def menu_callback(call):
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
 					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
-					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :             [ {riskk} ] •", callback_data='x')
-					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Approved' in last:
+					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :              [ {riskk} ] •", callback_data='x')
+					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
+					stop=types.InlineKeyboardButton(f"[ ⌧ 𝐒𝐓𝐎𝐏 🚫 ]", callback_data='stop')
+					mes.add(cm1,status, cm3,ccn,risk, cm4, cm5, stop)
+					end_time = time.time()
+					execution_time = end_time - start_time
+					bot.edit_message_text(chat_id=call.message.chat.id, 
+					  message_id=call.message.message_id, 
+					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
+𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
+					
+					msg=f'''<b>
+<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
+<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 3$</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code> SUCCESS 🟢</code>
+
+<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐲: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> '''
+					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or '3d' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
 					elif 'risk' in last:
@@ -345,7 +370,7 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
-𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
+𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
 					msg=f'''<b>
 <a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
