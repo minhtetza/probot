@@ -71,7 +71,7 @@ def Tele(ccx):
 			'form_id': '3',
 	}
 	
-	response = requests.post(
+	r2 = requests.post(
 			'https://tasmanianinquirer.com.au/wp-admin/admin-ajax.php',
 			params=params,
 			cookies=cookies,
