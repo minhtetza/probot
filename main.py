@@ -248,7 +248,7 @@ def menu_callback(call):
 					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
 					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :             [ {riskk} ] •", callback_data='x')
-                    if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you ' in last or 'Stripe Error: Your cars security code is incorrect.' in last or '3d' in last:
+					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
 					elif 'risk' in last:
