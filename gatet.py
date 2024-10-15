@@ -77,8 +77,12 @@ def Tele(ccx):
 			cookies=cookies,
 			headers=headers,
 			data=data,
-	)
-	return (r2.json()['errors'])
+	).json()
+	try:
+		ii=r2['errors']
+	except:
+		return 'success' or 'Thank You'
+	return ii
 			
 def Tele2(ccx):
 	import requests
@@ -170,8 +174,12 @@ jdhshsh%7C1722164426%7CQkqnUBtPMRYcYpcvKhriZedlcVJsl24RrNRohG9rVRM%7Cbb8a8b162fd
 			cookies=cookies,
 			headers=headers,
 			data=data,
-	)
-	return (r2.json()['errors'])
+	).json()
+	try:
+		ii=r2['errors']
+	except:
+		return 'success' or 'Thank You'
+	return ii
 			
 			
 		
