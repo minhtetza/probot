@@ -1,18 +1,19 @@
-import telebot
+import telebot,os
 import re,json
-import requests,os
+import requests
 import telebot,time,random
 import random
 import string
 from telebot import types
 from gatet import *
+from reg import reg
 from datetime import datetime, timedelta
 from faker import Faker
 from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7336963132:AAEl2a5Bk-pGBJ6jWXT6vURbzYulz4PHmm8'
+token = '7336963132:AAFZlyR4z0GjIndzz-q0KVAGn7sCCfqa1Vo'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=6191863486 
 command_usage = {}
@@ -45,20 +46,27 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == '𝗙𝗥𝗘𝗘':	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="♻️ 𝐎𝐰𝐧𝐞𝐫  😈", url="https://t.me/Ownerxxxxx")
+			contact_button = types.InlineKeyboardButton(text="😈 𝗝𝗢𝗜𝗡 🎉", url="https://t.me/CHITNGE54")
 			keyboard.add(contact_button)
 			random_number = random.randint(33, 82)
 			photo_url = f'https://t.me/bkddgfsa/{random_number}'
-			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<b>Hi Buddy {name}
-𝐓𝐡𝐞 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐚𝐥𝐥𝐨𝐰𝐬 𝐲𝐨𝐮 𝐭𝐨 𝐮𝐬𝐞 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐭𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐩𝐨𝐫𝐭𝐚𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐥𝐢𝐦𝐢𝐭𝐬
-𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐜𝐚𝐫𝐝𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐭𝐡𝐞 𝐟𝐢𝐥𝐞
-━━━━
-𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
+			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<b>
+Hello {name}
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
+━━━━━━━━━━━━━━━━━
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
 
-𝐝𝐚𝐲𝐬  =  5$
-𝐖𝐞𝐞𝐤 =   9$
-𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
+7𝗗𝗮𝘆 = 10$
+----------------------------------
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
+
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
+
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
+━━━━━━━━━━━━━━━━━
+@Ownerxxxxx Buy here!</b>
 	''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
@@ -88,8 +96,7 @@ def start(message):
 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$ ✅ /chk 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘 
 
-𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 12$ /sex 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
-𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘
+𝗦𝗲𝗻𝗱 𝗬𝗼𝘂𝗿 𝗖𝗖 𝗖𝗼𝗺𝗯𝗼 𝘁𝘅𝘁 𝗙𝗶𝗹𝗲 🗂️🗃️📂
 
 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝗱𝗱𝗶𝗻𝗴 𝗦𝗼𝗺𝗲 𝗚𝗮𝘁𝗲𝘄𝗮𝘆𝘀 𝗔𝗻𝗱 𝗧𝗼𝗼𝗹𝘀 𝗦𝗼𝗼𝗻</b>
 ''',reply_markup=keyboard)
@@ -117,18 +124,24 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="♻️ 𝐎𝐰𝐧𝐞𝐫  😈", url="https://t.me/Ownerxxxxx")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 			keyboard.add(contact_button)
-			bot.send_message(chat_id=message.chat.id, text=f'''<b>Hi Buddy {name}
-𝐓𝐡𝐞 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐚𝐥𝐥𝐨𝐰𝐬 𝐲𝐨𝐮 𝐭𝐨 𝐮𝐬𝐞 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐭𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐩𝐨𝐫𝐭𝐚𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐥𝐢𝐦𝐢𝐭𝐬
-𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐜𝐚𝐫𝐝𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐭𝐡𝐞 𝐟𝐢𝐥𝐞
-━━━━
-𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
+			bot.send_message(chat_id=message.chat.id, text=f'''<b>Hello {name}
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
+━━━━━━━━━━━━━━━━━
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
 
-3𝐝𝐚𝐲𝐬 = . 5$
-𝐖𝐞𝐞𝐤 =   9$
-𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
+7𝗗𝗮𝘆 = 10$
+----------------------------------
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
+
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
+
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
+━━━━━━━━━━━━━━━━━
+@Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
@@ -138,25 +151,31 @@ def main(message):
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="♻️ 𝐎𝐰𝐧𝐞𝐫  😈", url="https://t.me/Ownerxxxxx")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 			keyboard.add(contact_button)
-			bot.send_message(chat_id=message.chat.id, text=f'''<b>Hi Buddy {name}
-𝐓𝐡𝐞 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐚𝐥𝐥𝐨𝐰𝐬 𝐲𝐨𝐮 𝐭𝐨 𝐮𝐬𝐞 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐭𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐩𝐨𝐫𝐭𝐚𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐥𝐢𝐦𝐢𝐭𝐬
-𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐜𝐚𝐫𝐝𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐭𝐡𝐞 𝐟𝐢𝐥𝐞
-━━━━
-𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
+			bot.send_message(chat_id=message.chat.id, text=f'''<b>Hello {name}
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
+━━━━━━━━━━━━━━━━━
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
 
-3𝐝𝐚𝐲𝐬 = . 5$
-𝐖𝐞𝐞𝐤 =   9$
-𝐌𝐨𝐧𝐭𝐡 = 19$
-𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
+7𝗗𝗮𝘆 = 10$
+----------------------------------
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
+
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
+
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
+━━━━━━━━━━━━━━━━━
+@Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="♻️ 𝐎𝐰𝐧𝐞𝐫  😈", url="https://t.me/Ownerxxxxx")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝐘𝐨𝐮 𝐂𝐚𝐧𝐧𝐨𝐭 𝐔𝐬𝐞 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐁𝐞𝐜𝐚𝐮𝐬𝐞 𝐘𝐨𝐮𝐫 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐇𝐚𝐬 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 🥲</b>
 		''',reply_markup=keyboard)
@@ -168,8 +187,8 @@ def main(message):
 				json.dump(json_data, file, indent=2)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$ 🪢",callback_data='br')
-		sw = types.InlineKeyboardButton(text=f"🎉 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 12.99$",callback_data='sq')
+		contact_button = types.InlineKeyboardButton(text=f"🎉 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘  3$ 🪢",callback_data='br')
+		sw = types.InlineKeyboardButton(text=f"🎉 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘  12$",callback_data='sq')
 		keyboard.add(contact_button)
 		keyboard.add(sw)
 		bot.reply_to(message, text=f'𝐂𝐡𝐨𝐨𝐬𝐞 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐔𝐬𝐞',reply_markup=keyboard)
@@ -184,7 +203,7 @@ def menu_callback(call):
 		dd = 0
 		live = 0
 		incorrect = 0
-		ccnn = 0
+		Invalid = 0
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text= "𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛")
 		try:
 			with open("combo.txt", 'r') as file:
@@ -244,7 +263,7 @@ def menu_callback(call):
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
 					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
-					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
+					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {Invalid} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
 					risk = types.InlineKeyboardButton(f"⌧ 𝐅𝐀𝐊𝐄 𝐂𝐀𝐑𝐃 ⚠️ : [ {incorrect} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
@@ -275,11 +294,11 @@ def menu_callback(call):
 						bot.send_message(call.from_user.id, msg)
 					elif 'Card Not Activated' in last:
 						incorrect+=1
-					elif 'CVV' in last:
-						ccnn+=1
+					elif 'Invalid' in last:
+						Invalid+=1
 					else:
 						dd += 1
-					time.sleep(20)
+					time.sleep(10)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
@@ -296,7 +315,7 @@ def menu_callback(call):
 		dd = 0
 		live = 0
 		incorrect = 0
-		ccnn = 0
+		Invalid = 0
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text= "V2 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛")
 		try:
 			with open("combo.txt", 'r') as file:
@@ -347,16 +366,16 @@ def menu_callback(call):
 						last = str(Tele2(cc))
 					except Exception as e:
 						print(e)
-						last = "wait a minute"
+						last = "ERROR"
 					if 'incorrect' in last:
 						last='Card Not Activated'
 					elif 'Stripe Error: Your card was declined.' in last:
 						last='Your Card Was Declined. 🚫'
 					mes = types.InlineKeyboardMarkup(row_width=1)
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
-					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} ", callback_data='u8')
+					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
-					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
+					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {Invalid} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
 					risk = types.InlineKeyboardButton(f"⌧ 𝐅𝐀𝐊𝐄 𝐂𝐀𝐑𝐃 ⚠️ : [ {incorrect} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
@@ -373,7 +392,7 @@ def menu_callback(call):
 <a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 12$</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
 <a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
@@ -387,11 +406,11 @@ def menu_callback(call):
 						bot.send_message(call.from_user.id, msg)
 					elif 'Card Not Activated' in last:
 						incorrect+=1
-					elif 'CVV' in last:
-						ccnn+=1
+					elif 'Invalid' in last:
+						Invalid+=1
 					else:
 						dd += 1
-					time.sleep(20)
+					time.sleep(10)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
@@ -401,8 +420,8 @@ def menu_callback(call):
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.chk') or message.text.lower().startswith('/chk'))
-def respond_to_vbv(message):
-	gate='Stripe Charge 3$ '
+def respond_to_sex(message):
+	gate='𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 '
 	name = message.from_user.first_name
 	idt=message.from_user.id
 	id=message.chat.id
@@ -428,18 +447,19 @@ def respond_to_vbv(message):
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 		keyboard.add(contact_button)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>Hello {name}
-The VIP plan gives you unlimited access to all tools and portals within the bot. 
-  You can scan cards through a file. 
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
 ━━━━━━━━━━━━━━━━━
-VIP Program Subscription Prices
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
 
-7Day = 10$
+7𝗗𝗮𝘆 = 10$
 ----------------------------------
-Payment Methods:
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
 
-Binance USDT 
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-Channel https://t.me/CHITNGE54
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -454,20 +474,19 @@ Channel https://t.me/CHITNGE54
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 		keyboard.add(contact_button)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>Hello {name}
-The VIP plan gives you unlimited access to all tools and portals within the bot. 
-  You can scan cards through a file. 
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
 ━━━━━━━━━━━━━━━━━
-VIP Program Subscription Prices
-1Day = 1$
-3Day = 3$
-7Day = 6$
-15Day = 15$
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
+
+7𝗗𝗮𝘆 = 10$
 ----------------------------------
-Payment Methods:
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
 
-Binance USDT 
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-Channel https://t.me/CHITNGE54
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -478,7 +497,7 @@ Channel https://t.me/CHITNGE54
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 		keyboard.add(contact_button)
-		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝙔𝙤𝙪 𝘾𝙖𝙣𝙣𝙤𝙩 𝙐𝙨𝙚 𝙏𝙝𝙚 𝘽𝙤𝙩 𝘽𝙚𝙘𝙖𝙪𝙨𝙚 𝙔𝙤𝙪𝙧 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙃𝙖𝙨 𝙀𝙭𝙥𝙞𝙧𝙚𝙙</b>
+		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝐘𝐨𝐮 𝐂𝐚𝐧𝐧𝐨𝐭 𝐔𝐬𝐞 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐁𝐞𝐜𝐚𝐮𝐬𝐞 𝐘𝐨𝐮𝐫 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐇𝐚𝐬 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 🥲</b>
 	''',reply_markup=keyboard)
 		with open('data.json', 'r') as file:
 			json_data = json.load(file)
@@ -496,7 +515,7 @@ Channel https://t.me/CHITNGE54
 		if time_diff < 30:
 			bot.reply_to(message, f"<b>Try again after {30-time_diff} seconds.</b>",parse_mode="HTML")
 			return	
-	ko = (bot.reply_to(message, "𝘾𝙝𝙚𝙘𝙠𝙞𝙣𝙜 𝙔𝙤𝙪𝙧 𝘾𝙖𝙧𝙙𝙨...⌛").message_id)
+	ko = (bot.reply_to(message, "𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛").message_id)
 	try:
 		cc = message.reply_to_message.text
 	except:
@@ -535,12 +554,11 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''
-<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+	msg=f'''<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/Approved_Raven'>┏━━━━━━━⍟	</a>		
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
 <a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
@@ -554,7 +572,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 <a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
 <a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Your Card Declined 🚫</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
@@ -568,7 +586,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	else:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msgd)
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.redeem') or message.text.lower().startswith('/redeem'))
-def respond_to_vbv(message):
+def respond_to_sex(message):
 	def my_function():
 		global stop
 		try:
@@ -586,13 +604,13 @@ def respond_to_vbv(message):
 			del data[re]
 			with open('data.json', 'w') as json_file:
 				json.dump(data, json_file, ensure_ascii=False, indent=4)
-			msg=f'''<b>GSIX 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
-𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
+			msg=f'''<b>𝗚𝗦𝗜𝗫 𝗩𝗜𝗣 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
+𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
 𝗧𝗬𝗣 ➜ {typ}</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
 		except Exception as e:
 			print('ERROR : ',e)
-			bot.reply_to(message,'<b>Incorrect code or it has already been redeemed </b>',parse_mode="HTML")
+			bot.reply_to(message,'<b>𝗜𝗻𝗰𝗼𝗿𝗿𝗲𝗰𝘁 𝗰𝗼𝗱𝗲 𝗼𝗿 𝗶𝘁 𝗵𝗮𝘀 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗯𝗲𝗲𝗻 𝗿𝗲𝗱𝗲𝗲𝗺𝗲𝗱 \ncheck /start Try Again</b>',parse_mode="HTML")
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(commands=["code"])
@@ -638,10 +656,10 @@ def start(message):
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.sex') or message.text.lower().startswith('/sex'))
-def respond_to_vbv(message):
+def respond_to_sex(message):
 	id=message.from_user.id
 	name = message.from_user.first_name
-	gate='Stripe Charge 12$'
+	gate='3𝑫𝑺 𝑳𝒐𝒐𝒌𝒖𝒑'
 	with open('data.json', 'r') as file:
 		json_data = json.load(file)
 	try:BL=(json_data[str(id)]['plan'])
@@ -663,17 +681,19 @@ def respond_to_vbv(message):
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 		keyboard.add(contact_button)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>Hello {name}
-The VIP plan gives you unlimited access to all tools and portals within the bot. 
-  You can scan cards through a file. 
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
 ━━━━━━━━━━━━━━━━━
-VIP Program Subscription Prices
-7Day = 10$
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
+
+7𝗗𝗮𝘆 = 10$
 ----------------------------------
-Payment Methods:
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
 
-Binance USDT 
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-Channel https://t.me/CHITNGE54
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -688,17 +708,19 @@ Channel https://t.me/CHITNGE54
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 		keyboard.add(contact_button)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>Hello {name}
-The VIP plan gives you unlimited access to all tools and portals within the bot. 
-  You can scan cards through a file. 
+𝗧𝗵𝗲 𝗩𝗜𝗣 𝗽𝗹𝗮𝗻 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘂𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗽𝗼𝗿𝘁𝗮𝗹𝘀 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗯𝗼𝘁. 
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗰𝗮𝗻 𝗰𝗮𝗿𝗱𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗮 𝗳𝗶𝗹𝗲. 
 ━━━━━━━━━━━━━━━━━
-VIP Program Subscription Prices
-7Day = 10$
+𝗰𝗵𝗲𝗰𝗸 /cmds
+𝗩𝗜𝗣 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗣𝗿𝗶𝗰𝗲𝘀
+
+7𝗗𝗮𝘆 = 10$
 ----------------------------------
-Payment Methods:
+𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
 
-Binance USDT 
+𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-Channel https://t.me/CHITNGE54
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/CHITNGE54
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -709,7 +731,7 @@ Channel https://t.me/CHITNGE54
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Ownerxxxxx")
 		keyboard.add(contact_button)
-		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝙔𝙤𝙪 𝘾𝙖𝙣𝙣𝙤𝙩 𝙐𝙨𝙚 𝙏𝙝𝙚 𝘽𝙤𝙩 𝘽𝙚𝙘𝙖𝙪𝙨𝙚 𝙔𝙤𝙪𝙧 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙃𝙖𝙨 𝙀𝙭𝙥𝙞𝙧𝙚𝙙</b>
+		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝐘𝐨𝐮 𝐂𝐚𝐧𝐧𝐨𝐭 𝐔𝐬𝐞 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐁𝐞𝐜𝐚𝐮𝐬𝐞 𝐘𝐨𝐮𝐫 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐇𝐚𝐬 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 🥲</b>
 	''',reply_markup=keyboard)
 		with open('data.json', 'r') as file:
 			json_data = json.load(file)
@@ -732,7 +754,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	start_time = time.time()
 	try:
 		command_usage[idt]['last_time'] = datetime.now()
-		last = str(Tele2(cc))
+		last = str(Gsix(cc))
 	except Exception as e:
 		last='Error'
 	try: data = requests.get('https://bins.antipublic.cc/bins/'+cc[:6]).json()
@@ -757,13 +779,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''
-<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+	msg=f'''<b><a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/Approved_Raven'>┏━━━━━━━⍟	</a>		
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
 <a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢 12$</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
 <a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
@@ -776,7 +797,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 <a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
 <a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Your Card Declined 🚫</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
@@ -788,7 +809,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
-		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text= msgd)
+		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msgd)
 @bot.callback_query_handler(func=lambda call: call.data == 'stop')
 def menu_callback(call):
 	id=call.from_user.id
