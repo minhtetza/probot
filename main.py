@@ -12,7 +12,7 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7336963132:AAE9rxfLdj4uIjn26aW-4fOeT9ZxTN6xrSg'
+token = '7336963132:AAH06OZe1D5ke-yP1qk6Y9UWX4hhyMziC7E'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=6191863486 
 command_usage = {}
@@ -257,7 +257,7 @@ def menu_callback(call):
 					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
 𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
-					msg=f'''<b>
+					msg=f'''
 <a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
@@ -269,7 +269,7 @@ def menu_callback(call):
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
 					if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
@@ -369,7 +369,7 @@ def menu_callback(call):
 					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
 𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
-					msg=f'''<b>
+					msg=f'''
 <a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
@@ -381,7 +381,7 @@ def menu_callback(call):
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
 					if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
