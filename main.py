@@ -6,14 +6,13 @@ import random
 import string
 from telebot import types
 from gatet import *
-from reg import reg
 from datetime import datetime, timedelta
 from faker import Faker
 from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7336963132:AAHfLYwsZ4dG28v6lw7sVZD6qtoUdxq8C-Q'
+token = '7336963132:AAE9rxfLdj4uIjn26aW-4fOeT9ZxTN6xrSg'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=6191863486 
 command_usage = {}
@@ -56,7 +55,7 @@ def start(message):
 ━━━━
 𝐕𝐈𝐏 𝐩𝐥𝐚𝐧 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐩𝐫𝐢𝐜𝐞𝐬:
 
-3𝐝𝐚𝐲𝐬 = . 5$
+𝐝𝐚𝐲𝐬  =  5$
 𝐖𝐞𝐞𝐤 =   9$
 𝐌𝐨𝐧𝐭𝐡 = 19$
 𝐁𝐎𝐘 𝐁𝐘 <a href='t.me/Ownerxxxxx'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a></b>
@@ -89,7 +88,7 @@ def start(message):
 𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 3$ ✅ /chk 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘 
 
-𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 12.99$ /sex 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
+𝗦𝘁𝗿𝗶𝗽𝗲 𝗖𝗵𝗮𝗿𝗴𝗲 12$ /sex 𝗻𝗯|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘
 
 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝗱𝗱𝗶𝗻𝗴 𝗦𝗼𝗺𝗲 𝗚𝗮𝘁𝗲𝘄𝗮𝘆𝘀 𝗔𝗻𝗱 𝗧𝗼𝗼𝗹𝘀 𝗦𝗼𝗼𝗻</b>
@@ -184,7 +183,7 @@ def menu_callback(call):
 		gate='Stripe Charge 💵'
 		dd = 0
 		live = 0
-		riskk = 0
+		incorrect = 0
 		ccnn = 0
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text= "𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛")
 		try:
@@ -237,17 +236,17 @@ def menu_callback(call):
 					except Exception as e:
 						print(e)
 						last = "ERROR"
-					if 'risk' in last:
-						last='declined'
-					elif 'Duplicate' in last:
-						last='Approved'
+					if 'incorrect' in last:
+						last='Card Not Activated'
+					elif 'Stripe Error: Your card was declined.' in last:
+						last='Your Card Was Declined. 🚫'
 					mes = types.InlineKeyboardMarkup(row_width=1)
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
 					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
 					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
-					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :              [ {riskk} ] •", callback_data='x')
+					risk = types.InlineKeyboardButton(f"⌧ 𝐅𝐀𝐊𝐄 𝐂𝐀𝐑𝐃 ⚠️ : [ {incorrect} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
 					stop=types.InlineKeyboardButton(f"[ ⌧ 𝐒𝐓𝐎𝐏 🚫 ]", callback_data='stop')
 					mes.add(cm1,status, cm3,ccn,risk, cm4, cm5, stop)
@@ -260,23 +259,22 @@ def menu_callback(call):
 					
 					msg=f'''<b>
 <a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
-<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
-<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 3$</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code> SUCCESS 🟢</code>
+<a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
 <a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
-					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or '3d' in last:
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+					if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
-					elif 'risk' in last:
-						risk+=1
+					elif 'Card Not Activated' in last:
+						incorrect+=1
 					elif 'CVV' in last:
 						ccnn+=1
 					else:
@@ -297,7 +295,7 @@ def menu_callback(call):
 		gate='Stripe Auth'
 		dd = 0
 		live = 0
-		riskk = 0
+		incorrect = 0
 		ccnn = 0
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text= "V2 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛")
 		try:
@@ -349,18 +347,18 @@ def menu_callback(call):
 						last = str(Tele2(cc))
 					except Exception as e:
 						print(e)
-						last = "ERROR"
-					if 'risk' in last:
-						last='declined'
-					elif 'Duplicate' in last:
-						last='Approved'
+						last = "wait a minute"
+					if 'incorrect' in last:
+						last='Card Not Activated'
+					elif 'Stripe Error: Your card was declined.' in last:
+						last='Your Card Was Declined. 🚫'
 					mes = types.InlineKeyboardMarkup(row_width=1)
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
-					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
+					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} ", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
 					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {ccnn} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
-					risk = types.InlineKeyboardButton(f"⌧ 𝐂𝐕𝐕 🟢 :              [ {riskk} ] •", callback_data='x')
+					risk = types.InlineKeyboardButton(f"⌧ 𝐅𝐀𝐊𝐄 𝐂𝐀𝐑𝐃 ⚠️ : [ {incorrect} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
 					stop=types.InlineKeyboardButton(f"[ ⌧ 𝐒𝐓𝐎𝐏 🚫 ]", callback_data='stop')
 					mes.add(cm1,status, cm3,ccn,risk, cm4, cm5, stop)
@@ -373,23 +371,22 @@ def menu_callback(call):
 					
 					msg=f'''<b>
 <a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/Approved_Raven'>┏━━━━━━━⍟</a>			
-<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code></a>
-<a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 3$</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code> SUCCESS 🟢</code>
+<a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
+<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 12$</code>		
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
 <a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
-					if "success" in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'Stripe Error: Your card does not support this type of purchase' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Approved' in last:
+<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+					if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
-					elif 'risk' in last:
-						risk+=1
+					elif 'Card Not Activated' in last:
+						incorrect+=1
 					elif 'CVV' in last:
 						ccnn+=1
 					else:
@@ -492,7 +489,7 @@ def respond_to_sex(message):
 		cc = message.reply_to_message.text
 	except:
 		cc=message.text
-	cc=str(reg(cc))
+	cc=str(Tele(cc))
 	if cc == 'None':
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''<b>🚫 Oops!
 𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐬𝐮𝐫𝐞 𝐲𝐨𝐮 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐜𝐚𝐫𝐝 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐟𝐨𝐫𝐦𝐚𝐭:
@@ -554,7 +551,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 
 <a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
-	if "Thank you for your message." in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'success' in last or 'Duplicate' in last or 'Approved' in last:
+	if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msgd)
@@ -577,13 +574,13 @@ def respond_to_sex(message):
 			del data[re]
 			with open('data.json', 'w') as json_file:
 				json.dump(data, json_file, ensure_ascii=False, indent=4)
-			msg=f'''<b>TOME VIP 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
+			msg=f'''<b>GSIX VIP 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
 𝗧𝗬𝗣 ➜ {typ}</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
 		except Exception as e:
 			print('ERROR : ',e)
-			bot.reply_to(message,'<b>Incorrect code or it has already been redeemed </b>',parse_mode="HTML")
+			bot.reply_to(message,'<b>Incorrect code or it has already been redeemed Check /start </b>',parse_mode="HTML")
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(commands=["code"])
@@ -597,7 +594,7 @@ def start(message):
 			with open('data.json', 'r') as json_file:
 				existing_data = json.load(json_file)
 			characters = string.ascii_uppercase + string.digits
-			pas ='TOME-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
+			pas ='GSIX-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
 			current_time = datetime.now()
 			ig = current_time + timedelta(hours=h)
 			plan='𝗩𝗜𝗣'
@@ -717,7 +714,7 @@ def respond_to_sex(message):
 		cc = message.reply_to_message.text
 	except:
 		cc=message.text
-	cc=str(reg(cc))
+	cc=str(Tele(cc))
 	if cc == 'None':
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''<b>🚫 Oops!
 𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐬𝐮𝐫𝐞 𝐲𝐨𝐮 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐜𝐚𝐫𝐝 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐟𝐨𝐫𝐦𝐚𝐭:
@@ -757,7 +754,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 <a href='t.me/Approved_Raven'>┃</a>𝐂𝐂: <code>{cc}</code>
 <a href='t.me/Approved_Raven'>┗━━━━━━━━━━━⊛</a>
 <a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>{gate}</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
+<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code> Payment Successful 🟢</code>
 
 <a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
 <a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
@@ -779,7 +776,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 
 <a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
-	if "Thank you for your message." in last or 'Stripe Error: Your card number is incorrect.' in last or 'Stripe Error: Your card insufficient funds' in last or 'success' in last or 'Duplicate' in last or 'Approved' in last:
+	if 'success' in last or 'Thank you for your message. We will get in touch with you shortly' in last or 'Stripe Error: Invalid account.' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last or 'Stripe Error: Your card has insufficient funds.' in last or 'Stripe Error: Payment Failed! Please try again.' in last or 'Stripe Error: An error occurred while processing your card. Try again in a little bit.' in last or 'security code is incorrect.' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msgd)
