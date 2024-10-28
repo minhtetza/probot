@@ -203,7 +203,7 @@ def menu_callback(call):
 		dd = 0
 		live = 0
 		incorrect = 0
-		Invalid = 0
+		purchase = 0
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text= "𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛")
 		try:
 			with open("combo.txt", 'r') as file:
@@ -263,7 +263,7 @@ def menu_callback(call):
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
 					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
-					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {Invalid} ] •", callback_data='x')
+					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {purchase} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
 					risk = types.InlineKeyboardButton(f"⌧ 𝐅𝐀𝐊𝐄 𝐂𝐀𝐑𝐃 ⚠️ : [ {incorrect} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
@@ -294,8 +294,8 @@ def menu_callback(call):
 						bot.send_message(call.from_user.id, msg)
 					elif 'Card Not Activated' in last:
 						incorrect+=1
-					elif 'Invalid' in last:
-						Invalid+=1
+					elif 'purchase' in last:
+						purchase+=1
 					else:
 						dd += 1
 					time.sleep(20)
@@ -315,7 +315,7 @@ def menu_callback(call):
 		dd = 0
 		live = 0
 		incorrect = 0
-		Invalid = 0
+		purchase = 0
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text= "V2 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛")
 		try:
 			with open("combo.txt", 'r') as file:
@@ -375,7 +375,7 @@ def menu_callback(call):
 					cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
 					status = types.InlineKeyboardButton(f"⚆ 𝐒𝐓𝐀𝐓𝐔𝐒 : {last} •", callback_data='u8')
 					cm3 = types.InlineKeyboardButton(f"⚆ 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 ✅ : [ {live} ] •", callback_data='x')
-					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {Invalid} ] •", callback_data='x')
+					ccn = types.InlineKeyboardButton(f"⚆ 𝐂𝐂𝐍 ☑️ :             [ {purchase} ] •", callback_data='x')
 					cm4 = types.InlineKeyboardButton(f"⌧ 𝐃𝐄𝐂𝐋𝐈𝐍𝐄𝐃 ❌ : [ {dd} ] •", callback_data='x')
 					risk = types.InlineKeyboardButton(f"⌧ 𝐅𝐀𝐊𝐄 𝐂𝐀𝐑𝐃 ⚠️ : [ {incorrect} ] •", callback_data='x')
 					cm5 = types.InlineKeyboardButton(f"⌧ 𝐓𝐎𝐓𝐀𝐋 🎉 :    [ {total} ] •", callback_data='x')
@@ -406,8 +406,8 @@ def menu_callback(call):
 						bot.send_message(call.from_user.id, msg)
 					elif 'Card Not Activated' in last:
 						incorrect+=1
-					elif 'Invalid' in last:
-						Invalid+=1
+					elif 'purchase' in last:
+						purchase+=1
 					else:
 						dd += 1
 					time.sleep(20)
