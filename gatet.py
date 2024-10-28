@@ -96,7 +96,7 @@ def Tele(ccx):
 	try:
 		ii=r2['errors']
 	except:
-		return 'success' or 'Thank You'
+		return 'success' or 'Your card does not support this type of purchase.'
 	return ii
 	
 	
