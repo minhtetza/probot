@@ -606,7 +606,8 @@ def respond_to_sex(message):
 				json.dump(data, json_file, ensure_ascii=False, indent=4)
 			msg=f'''<b>𝗚𝗦𝗜𝗫 𝗩𝗜𝗣 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
-𝗧𝗬𝗣 ➜ {typ}</b>'''
+𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘂𝗹𝗮𝘁𝗶𝗼𝗻𝘀! 🎉🎉🎉🎉
+𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗡𝗲𝘄 𝗨𝘀𝗲𝗿🎉✅</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
 		except Exception as e:
 			print('ERROR : ',e)
