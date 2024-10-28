@@ -287,7 +287,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
 					if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
 						live += 1
@@ -298,7 +298,7 @@ def menu_callback(call):
 						Invalid+=1
 					else:
 						dd += 1
-					time.sleep(10)
+					time.sleep(20)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
@@ -410,7 +410,7 @@ def menu_callback(call):
 						Invalid+=1
 					else:
 						dd += 1
-					time.sleep(10)
+					time.sleep(20)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
