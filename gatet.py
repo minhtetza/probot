@@ -9,6 +9,7 @@ def Tele(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
+	time.sleep(20)
 
 
 	headers = {
