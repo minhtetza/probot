@@ -11,6 +11,8 @@ from datetime import datetime, timedelta
 from faker import Faker
 from multiprocessing import Process
 import threading
+import telebot
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 import threading
@@ -18,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAFOQyvZgTGlBkKC0ayinit4ykTzWIgx3wI"
+token = "7654644825:AAH4neJu7WqBwjG-bk3g06MNJch2cHY19Vw"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -27,6 +29,94 @@ admin=6191863486
 myid = ['6191863486']
 
 admins = ['6191863486']
+
+
+content = [
+    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗬𝗼𝘂𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗶𝗻 𝗖𝗵𝗲𝗰𝗸 \n┃⚆ 𝗪𝗼𝗿𝗹𝗱 𝗕𝗼𝘁 ⚠️ ⚠️ 🚫\n┃⌧ 𝗗𝗘𝗩 @AboutGSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
+    "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼",
+    "┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗜𝗡 𝗜𝗻𝗳𝗼 𝗟𝗼𝗼𝗸𝘂𝗽\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /bin 𝗕𝗜𝗡\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗙𝗿𝗲𝗲 𝗙𝗼𝗿 𝗔𝗹𝗹 ✅\n┗━━━━━━━━/━━━━━━━━⍟",
+    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sentall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @AboutGSIX\n• Channel ¦ @AboutGSIX",
+    "┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /chk 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃     \n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅                   \n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /cc 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /b3 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /sa 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 0.50$ \n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /ba 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗜𝗡 𝗜𝗻𝗳𝗼 𝗟𝗼𝗼𝗸𝘂𝗽\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /bin 𝗕𝗜𝗡\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗙𝗿𝗲𝗲 𝗙𝗼𝗿 𝗔𝗹𝗹 ✅\n┗━━━━━━━━/━━━━━━━━⍟\n⚆ 𝗠𝗮𝘀𝘀 𝗖𝗖 𝗖𝗼𝗺𝗯𝗼.𝘁𝘅𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗕𝗼𝘁\n⌧ 𝗪𝗲 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱𝗶𝗻𝗴 𝗠𝗼𝗿𝗲 𝗚𝗮𝘁𝗲𝘀...."  # New page added
+]
+
+# Create a dictionary to track the current page for each user
+user_pages = {}
+
+def generate_keyboard(page_number):
+    """Create navigation buttons with 'Next', 'Back', 'Menu', 'Owner', and 'New Page'."""
+    markup = InlineKeyboardMarkup(row_width=3)  # Set row width for buttons
+
+    # Create the buttons
+    back_button = InlineKeyboardButton("𝗡𝗘𝗫𝗧", callback_data="back")
+    next_button = InlineKeyboardButton("𝗧𝗢𝗢𝗟", callback_data="next")
+    menu_button = InlineKeyboardButton("𝗠𝗘𝗡𝗨", callback_data="menu")
+    if page_number < len(content) - 1: # The last page before the new page (Page 4)
+        new_page_button = InlineKeyboardButton("𝗖𝗛𝗘𝗖𝗞 𝗖𝗠𝗗𝗦", callback_data="new_page")
+        markup.add(new_page_button)
+    
+    # Add the "Owner" button if not on the last page
+    if page_number < len(content) - 1:
+        owner_button = InlineKeyboardButton("𝗕𝗢𝗧 𝗣𝗥𝗜𝗖𝗘 ", callback_data="Owner")
+        markup.add(owner_button)
+
+    # Add the "New Page" button if not on the last page
+    
+
+    # Add buttons based on the current page
+    if page_number == 0:
+        # First page: no 'Back' button, just 'Next' and 'Menu'
+        markup.add(next_button, menu_button)
+    elif page_number == len(content) - 1:
+        # Last page: no 'Next' button, just 'Back' and 'Menu'
+        markup.add(back_button, menu_button)
+    else:
+        # Middle pages: show 'Back', 'Next', and 'Menu' side by side
+        markup.add(back_button, next_button, menu_button)
+
+    return markup
+
+@bot.message_handler(commands=['info'])
+def start_message(message):
+    """Handle the /start command to initialize pagination."""
+    chat_id = message.chat.id
+    user_pages[chat_id] = 0  # Set the initial page to 0
+    bot.send_message(chat_id, content[0], reply_markup=generate_keyboard(0))
+
+@bot.callback_query_handler(func=lambda call: call.data in ['next', 'back', 'menu', 'Owner', 'new_page'])
+def handle_pagination(call):
+    """Handle button clicks for pagination, menu, owner, and new page."""
+    chat_id = call.message.chat.id
+    current_page = user_pages.get(chat_id, 0)
+
+    # Determine the next page based on button clicked
+    if call.data == 'next' and current_page < len(content) - 1:
+        current_page += 1
+    elif call.data == 'back' and current_page > 0:
+        current_page -= 1
+    elif call.data == 'menu':
+        # Reset the user back to the main menu
+        bot.edit_message_text("You are back at the menu. Choose a page to navigate:", chat_id, call.message.message_id)
+        bot.send_message(chat_id, content[0], reply_markup=generate_keyboard(0))
+        return
+    elif call.data == 'Owner':
+        # Respond to the "Owner" button click
+        bot.answer_callback_query(call.id, "You clicked the Owner button!")
+        bot.send_message(chat_id, "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼\nBot Buy @Ownerxxxxx \n\n\nChannel 2 https://t.me/AboutGSIX \nCHECK CMDS /info")
+        return  # Skip editing message if Owner button is clicked
+    elif call.data == 'new_page':
+        # Handle the new page button click
+        current_page = len(content) - 1  # Go to the last page (new page)
+    
+    # Check if the content is the same before editing
+    new_content = content[current_page]
+    new_markup = generate_keyboard(current_page)
+
+    if call.message.text != new_content or call.message.reply_markup != new_markup:
+        # Edit the message with the new content and update the buttons
+        bot.edit_message_text(new_content, chat_id, call.message.message_id, reply_markup=new_markup)
+
+    # Update the current page number
+    user_pages[chat_id] = current_page
 
 
 
@@ -75,9 +165,9 @@ def start(message):
 ┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> {name} ⚆
 ┃⚆ 𝗬𝗼𝘂𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗶𝗻 𝗖𝗵𝗲𝗰𝗸 
 ┃⚆ 𝗪𝗼𝗿𝗹𝗱 𝗕𝗼𝘁 ⚠️ ⚠️ 🚫
-┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /cmds
+┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
-┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices
+┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃⌧ 𝗗𝗘𝗩 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
@@ -1364,6 +1454,7 @@ def respond_to_vhk(message):
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
 ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
+
 
 
 
