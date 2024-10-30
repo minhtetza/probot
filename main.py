@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAFue2hpguEnz-QV3La48K10CKVl3tYEyNA"
+token = "7336963132:AAEACYZsoAKhPsrGb9ivxCRwKSMnDyEqzPk"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -724,7 +724,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-                    if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
                         live += 1
                         bot.send_message(call.from_user.id, msg)
                     else:
@@ -893,7 +893,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-                    if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
                         live += 1
                         bot.send_message(call.from_user.id, msg)
                     else:
@@ -1083,7 +1083,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-                    if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
                         live += 1
                         bot.send_message(call.from_user.id, msg)
                     else:
@@ -1251,7 +1251,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-                    if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
                         live += 1
                         bot.send_message(call.from_user.id, msg)
                     else:
@@ -1442,7 +1442,7 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-        if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
@@ -1576,7 +1576,7 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-        if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
@@ -1700,7 +1700,7 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-        if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
@@ -1825,7 +1825,7 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-        if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
@@ -1952,7 +1952,7 @@ def respond_to_vhk(message):
         ko = bot.reply_to(message, '𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛').message_id
         start_time = time.time()
         try:
-            last = str(Tele4(cc))
+            last = str(Tele5(cc))
         except:
             last = 'Gateway Error ❌'
         end_time = time.time()
@@ -1997,7 +1997,7 @@ j<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-        if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in or 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
