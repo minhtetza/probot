@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAF4BDMbgk4iMAjVvcLOXPG9wh5mac5Y7_M"
+token = "7198896114:AAGFptIRuwizipH8c6O4oHRBBYly9tMz2js"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -691,13 +691,16 @@ def menu_callback(call):
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
-
+                    if 'Stripe Error: Your card was declined.' in last:
+                     	last = 'Your Card Was Declined'   
+                    elif 'ERROR' in last:
+                     	last='CVV LIVE ✅'                                              
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
-                    cm1 = types.InlineKeyboardButton(f"⚆ 𝗖𝗖 • {cc}", callback_data='u8')
+                    cm1 = types.InlineKeyboardButton(f"⚆ 𝗖𝗖 {cc}", callback_data='u8')
                     status = types.InlineKeyboardButton(f"⚆ 𝗦𝗧𝗔𝗧𝗨𝗦 • {last}", callback_data='u8')
-                    cm3 = types.InlineKeyboardButton(f"⚆ 𝗔𝗣𝗣𝗥𝗢𝗩𝗘𝗗 !✅ • [ {live} ]", callback_data='x')
-                    cm4 = types.InlineKeyboardButton(f"⚆ 𝗗𝗘𝗖𝗜𝗡𝗘𝗗 !❌ • [ {dd} ]", callback_data='x')
+                    cm3 = types.InlineKeyboardButton(f"⌧ 𝗔𝗣𝗣𝗥𝗢𝗩𝗘𝗗 !✅ • [ {live} ]", callback_data='x')                    
+                    cm4 = types.InlineKeyboardButton(f"⌧ 𝗗𝗘𝗖𝗜𝗡𝗘𝗗 !❌ • [ {dd} ]", callback_data='x')
                     cm5 = types.InlineKeyboardButton(f"⌧ 𝗧𝗢𝗧𝗔𝗟 🔍 [ {total_lines} ] / [ {cm} ]•", callback_data='x')
                     stop = types.InlineKeyboardButton("⌧ 𝗦𝗧𝗢𝗣 𝗖𝗛𝗘𝗖𝗞 🚷", callback_data='stop')
                     mes.add(cm1, status, cm3, cm4, cm5, stop)
@@ -726,7 +729,7 @@ def menu_callback(call):
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last or 'Your card security code is invalid.' in last:
                         live += 1
-                        bot.send_message(call.from_user.id, msg)
+                        bot.send_message(call.from_user.id, msg)                                     
                     else:
                         dd += 1
 
@@ -860,7 +863,10 @@ def menu_callback(call):
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
-
+                    if 'Stripe Error: Your card was declined.' in last:
+                     	last = 'Your Card Was Declined'   
+                    elif 'Your card does not support this type of purchase.' in last:
+                     	last='CVV LIVE ✅'	
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
                     cm1 = types.InlineKeyboardButton(f"⚆ 𝗖𝗖 • {cc}", callback_data='u8')
@@ -1050,6 +1056,10 @@ def menu_callback(call):
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
+                    if 'Stripe Error: Your card was declined.' in last:
+                     	last = 'Your Card Was Declined'   
+                    elif 'Your card does not support this type of purchase.' in last:
+                     	last='CVV LIVE ✅'
 
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
@@ -1218,6 +1228,10 @@ def menu_callback(call):
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
+                    if 'Stripe Error: Your card was declined.' in last:
+                     	last = 'Your Card Was Declined'   
+                    elif 'Your card does not support this type of purchase.' in last:
+                     	last='CVV LIVE ✅'
 
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
