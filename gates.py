@@ -38,7 +38,7 @@ def Tele(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	time.sleep(10)
+	
 	headers = {
             'authority': 'api.stripe.com',
             'accept': 'application/json',
@@ -143,7 +143,7 @@ def Tele2(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	time.sleep(10)
+	
 	headers = {
 			'authority': 'api.stripe.com',
 			'accept': 'application/json',
@@ -224,7 +224,7 @@ def Tele(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	time.sleep(10)
+	
 	headers = {
             'authority': 'api.stripe.com',
             'accept': 'application/json',
@@ -328,7 +328,7 @@ def Tele(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	time.sleep(10)
+	
 	headers = {
             'authority': 'api.stripe.com',
             'accept': 'application/json',
