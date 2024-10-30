@@ -1316,7 +1316,8 @@ def respond_to_vhk(message):
         dec = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
@@ -1328,7 +1329,8 @@ def respond_to_vhk(message):
         ok = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1340,7 +1342,8 @@ def respond_to_vhk(message):
         cvc = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1446,7 +1449,8 @@ def respond_to_vhk(message):
         dec = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
@@ -1458,7 +1462,8 @@ def respond_to_vhk(message):
         ok = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1470,7 +1475,8 @@ def respond_to_vhk(message):
         cvc = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1567,7 +1573,8 @@ def respond_to_vhk(message):
         dec = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
@@ -1579,7 +1586,8 @@ def respond_to_vhk(message):
         ok = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1591,7 +1599,8 @@ def respond_to_vhk(message):
         cvc = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1689,7 +1698,8 @@ def respond_to_vhk(message):
         dec = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
@@ -1701,7 +1711,8 @@ def respond_to_vhk(message):
         ok = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1713,7 +1724,8 @@ def respond_to_vhk(message):
         cvc = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1858,7 +1870,8 @@ def respond_to_vhk(message):
         dec = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 4$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
@@ -1870,7 +1883,8 @@ def respond_to_vhk(message):
         ok = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 4$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
@@ -1882,7 +1896,8 @@ def respond_to_vhk(message):
         cvc = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+j<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 4$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
