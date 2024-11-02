@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAEF_95i9J6EQfdi1wTSXO8trnP3EqBj_Wc"
+token = "7336963132:AAGc9MqYIfWmtgC0_4oWCJ1V5W-MuH5mOws"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -35,8 +35,8 @@ content = [
     "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗬𝗼𝘂𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗶𝗻 𝗖𝗵𝗲𝗰𝗸 \n┃⚆ 𝗪𝗼𝗿𝗹𝗱 𝗕𝗼𝘁 ⚠️ ⚠️ 🚫\n┃⌧ 𝗗𝗘𝗩 @AboutGSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
     "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼",
     "Admin Command\n COMBO /set_limit\n\nOFF GATE /offb1 ON GATE /onb1\nOFF GATE /offb2 ON GATE /onb2\nOFF GATE /offb3 ON GATE /onb3\nOFF GATE /offb4 ON GATE /onb4\nOFF GATE /offch1 ON GATE /onch1\nAdmin CMDS /menu",
-    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sentall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @AboutGSIX\n• Channel ¦ @AboutGSIX",
-    "┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /chk 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃     \n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅                   \n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /cc 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /b3 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /sa 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 0.50$ \n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /ba 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗜𝗡 𝗜𝗻𝗳𝗼 𝗟𝗼𝗼𝗸𝘂𝗽\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /bin 𝗕𝗜𝗡\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗙𝗿𝗲𝗲 𝗙𝗼𝗿 𝗔𝗹𝗹 ✅\n┗━━━━━━━━/━━━━━━━━⍟\n⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices \n⚆ 𝗠𝗮𝘀𝘀 𝗖𝗖 𝗖𝗼𝗺𝗯𝗼.𝘁𝘅𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗕𝗼𝘁\n⌧ 𝗪𝗲 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱𝗶𝗻𝗴 𝗠𝗼𝗿𝗲 𝗚𝗮𝘁𝗲𝘀...."  # New page added
+    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sendall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @AboutGSIX\n• Channel ¦ @AboutGSIX",
+    "┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /chk 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃     \n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅                   \n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /cc 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 3\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /b3 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /sa 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 \n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /ba 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗜𝗡 𝗜𝗻𝗳𝗼 𝗟𝗼𝗼𝗸𝘂𝗽\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /bin 𝗕𝗜𝗡\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗙𝗿𝗲𝗲 𝗙𝗼𝗿 𝗔𝗹𝗹 ✅\n┗━━━━━━━━/━━━━━━━━⍟\n⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices \n⚆ 𝗠𝗮𝘀𝘀 𝗖𝗖 𝗖𝗼𝗺𝗯𝗼.𝘁𝘅𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗕𝗼𝘁\n⌧ 𝗪𝗲 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱𝗶𝗻𝗴 𝗠𝗼𝗿𝗲 𝗚𝗮𝘁𝗲𝘀...."  # New page added
 ]
 
 # Create a dictionary to track the current page for each user
@@ -209,13 +209,13 @@ def start(message):
 ┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿
 ┗━━━━━━━━/━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━⍟
-┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2
+┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 1
 ┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /cc 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃
 ┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅
 ┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿
 ┗━━━━━━━━/━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━⍟
-┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3
+┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 2
 ┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /b3 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃
 ┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅
 ┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿
@@ -227,7 +227,7 @@ def start(message):
 ┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿
 ┗━━━━━━━━/━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━⍟
-┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 0.50$ 
+┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 3
 ┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /ba 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃
 ┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅
 ┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿
@@ -313,8 +313,8 @@ def main(message):
 			return
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text=f"⚆ 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1 ⚆",callback_data='br')
-		sw = types.InlineKeyboardButton(text=f"⚆ 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2 ⚆️",callback_data='br2')
-		b3 = types.InlineKeyboardButton(text=f"⚆ 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3 ⚆️",callback_data='br3')
+		sw = types.InlineKeyboardButton(text=f"⚆ 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ⚆️",callback_data='br2')
+		b3 = types.InlineKeyboardButton(text=f"⚆ 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ⚆️",callback_data='br3')
 		sa = types.InlineKeyboardButton(text=f"⚆ 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4 ⚆️",callback_data='br4')
 		keyboard.add(contact_button)
 		keyboard.add(sw)
@@ -520,10 +520,10 @@ def show_menu(message):
         toggle_ch1 = 'Enable✅' if check_enabled_ch1 else 'Disable❌'
         
         br1_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1 ({toggle_br1})", callback_data='toggle_br1')
-        br2_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2 ({toggle_br2})", callback_data='toggle_br2')
-        br3_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3 ({toggle_br3})", callback_data='toggle_br3')
+        br2_button = types.InlineKeyboardButton(f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ({toggle_br2})", callback_data='toggle_br2')
+        br3_button = types.InlineKeyboardButton(f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ({toggle_br3})", callback_data='toggle_br3')
         br4_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4 ({toggle_br4})", callback_data='toggle_br4')
-        ch1_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1 ({toggle_ch1})", callback_data='toggle_ch1')
+        ch1_button = types.InlineKeyboardButton(f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ({toggle_ch1})", callback_data='toggle_ch1')
         limits_button = types.InlineKeyboardButton(f"Gate limits ({MAX_LINES})", callback_data='set_limits')
         
         markup.add(br1_button, br2_button, br3_button, br4_button, ch1_button, limits_button)
@@ -544,11 +544,11 @@ def handle_toggle(call):
     elif call.data == 'toggle_br2':
         check_enabled_br2 = not check_enabled_br2
         status = 'Enable✅' if check_enabled_br2 else 'Disable❌'
-        bot.answer_callback_query(call.id, f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2 is now {status}.")
+        bot.answer_callback_query(call.id, f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 is now {status}.")
     elif call.data == 'toggle_br3':
         check_enabled_br3 = not check_enabled_br3
         status = 'Enable✅' if check_enabled_br3 else 'Disable❌'
-        bot.answer_callback_query(call.id, f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3 is now {status}.")
+        bot.answer_callback_query(call.id, f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 is now {status}.")
     elif call.data == 'toggle_br4':
         check_enabled_br4 = not check_enabled_br4
         status = 'Enable✅' if check_enabled_br4 else 'Disable❌'
@@ -556,7 +556,7 @@ def handle_toggle(call):
     elif call.data == 'toggle_ch1':
         check_enabled_ch1 = not check_enabled_ch1
         status = 'Enable✅' if check_enabled_ch1 else 'Disable❌'
-        bot.answer_callback_query(call.id, f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1 is now {status}.")
+        bot.answer_callback_query(call.id, f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 is now {status}.")
     elif call.data == 'set_limits':
         # إرسال رسالة للمستخدم لإدخال قيمة جديدة لـ MAX_LINES
         bot.send_message(chat_id, "Please enter the new limit value for Gate limits as /set_limit 1000")
@@ -564,10 +564,10 @@ def handle_toggle(call):
     # تحديث الرسالة لعرض الحالة الجديدة
     markup = types.InlineKeyboardMarkup(row_width=1)
     br1_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1 ({'Enable✅' if check_enabled_br1 else 'Disable❌'})", callback_data='toggle_br1')
-    br2_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2 ({'Enable✅' if check_enabled_br2 else 'Disable❌'})", callback_data='toggle_br2')
-    br3_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3 ({'Enable✅' if check_enabled_br3 else 'Disable❌'})", callback_data='toggle_br3')
+    br2_button = types.InlineKeyboardButton(f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ({'Enable✅' if check_enabled_br2 else 'Disable❌'})", callback_data='toggle_br2')
+    br3_button = types.InlineKeyboardButton(f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ({'Enable✅' if check_enabled_br3 else 'Disable❌'})", callback_data='toggle_br3')
     br4_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4 ({'Enable✅' if check_enabled_br4 else 'Disable❌'})", callback_data='toggle_br4')
-    ch1_button = types.InlineKeyboardButton(f"𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1 ({'Enable✅' if check_enabled_ch1 else 'Disable❌'})", callback_data='toggle_ch1')
+    ch1_button = types.InlineKeyboardButton(f"𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 ({'Enable✅' if check_enabled_ch1 else 'Disable❌'})", callback_data='toggle_ch1')
     limits_button = types.InlineKeyboardButton(f"Gate limits ({MAX_LINES})", callback_data='set_limits')
     markup.add(br1_button, br2_button, br3_button, br4_button, ch1_button, limits_button)
     
@@ -699,7 +699,7 @@ def menu_callback(call):
                     mes = types.InlineKeyboardMarkup(row_width=1)
                     cm1 = types.InlineKeyboardButton(f"⚆ 𝗖𝗖 {cc}", callback_data='u8')
                     status = types.InlineKeyboardButton(f"⚆ 𝗦𝗧𝗔𝗧𝗨𝗦 • {last}", callback_data='u8')
-                    cm3 = types.InlineKeyboardButton(f"⌧ 𝗔𝗣𝗣𝗥𝗢𝗩𝗘𝗗 !✅ • [ {live} ]", callback_data='x')                    
+                    cm3 = types.InlineKeyboardButton(f"⌧ 𝗖𝗖𝗡 𝗖𝗛𝗔𝗥𝗚𝗘 ✅ • [ {live} ]", callback_data='x')                    
                     cm4 = types.InlineKeyboardButton(f"⌧ 𝗗𝗘𝗖𝗜𝗡𝗘𝗗 !❌ • [ {dd} ]", callback_data='x')
                     cm5 = types.InlineKeyboardButton(f"⌧ 𝗧𝗢𝗧𝗔𝗟 🔍 [ {total_lines} ] / [ {cm} ]•", callback_data='x')
                     stop = types.InlineKeyboardButton("⌧ 𝗦𝗧𝗢𝗣 𝗖𝗛𝗘𝗖𝗞 🚷", callback_data='stop')
@@ -719,7 +719,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CCN CHARGE 1$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
@@ -816,7 +816,7 @@ def menu_callback(call):
         return  
 
     def my_function():
-        gate = '𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 2'
+        gate = '𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 2'
         dd = 0
         live = 0
         cm = 0
@@ -858,15 +858,15 @@ def menu_callback(call):
                         return
                     start_time = time.time()
                     try:
-                        last = str(Tele1(cc))
+                        last = str(Tele2(cc))
                         cm += 1
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
-                    if 'Stripe Error: Your card was declined.' in last:
-                     	last = 'Your Card Was Declined'   
-                    elif 'CVV.' in last:
-                     	last='CVV LIVE ✅'	
+                    if 'Your card was declined.' in last:
+                     	last = 'Declined - Call Issuer'   
+                    elif 'success' in last:
+                     	last='APPROVED ✅'	
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
                     cm1 = types.InlineKeyboardButton(f"⚆ 𝗖𝗖 • {cc}", callback_data='u8')
@@ -891,21 +891,21 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
+                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "APPROVED ✅" in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
                         bot.send_message(call.from_user.id, msg)
                     else:
                         dd += 1
 
-                    time.sleep(15)
+                    time.sleep(10)
 
         except Exception as error:
             bot.send_message(admins[0], f'Error -> {error}')
@@ -1009,7 +1009,7 @@ def menu_callback(call):
         return  
 
     def my_function():
-        gate = '𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 3'
+        gate = '𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 3'
         dd = 0
         live = 0
         cm = 0
@@ -1051,15 +1051,25 @@ def menu_callback(call):
                         return
                     start_time = time.time()
                     try:
-                        last = str(Tele2(cc))
+                        last = str(Tele3(cc))
                         cm += 1
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
-                    if 'Stripe Error: Your card was declined.' in last:
-                     	last = 'Your Card Was Declined'   
-                    elif 'Your card does not support this type of purchase.' in last:
-                     	last='CVV LIVE ✅'
+                    if 'Your card is declined' in last:
+                        last='Gateway Rejected: fraud'
+                    if 'API failed to fetch' in last:
+                    	last='Code 2009. No Such Issuer'
+                    if 'Request Timeout' in last:
+                    	last='Code 2014. Processor Declined - Fraud Suspectes'
+                    if 'Card Expired' in last:
+                    	last='Your Card Expired'
+                    if 'Live' in last:
+                    	last='APPROVED ✅'
+                    if 'Unable to authenticate' in last:
+                    	last='Declined - Call Issuer'
+                    elif 'Proxy error' in last:
+                    	last='Call Issuer. Pick Up Card. '
 
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
@@ -1085,21 +1095,21 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code> Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-                    if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
+                    if 'success' in last or 'APPROVED ✅' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
                         bot.send_message(call.from_user.id, msg)
                     else:
                         dd += 1
 
-                    time.sleep(15)
+                    time.sleep(10)
 
         except Exception as error:
             bot.send_message(admins[0], f'Error -> {error}')
@@ -1271,7 +1281,7 @@ def menu_callback(call):
                     else:
                         dd += 1
 
-                    time.sleep(15)
+                    time.sleep(5)
 
         except Exception as error:
             bot.send_message(admins[0], f'Error -> {error}')
@@ -1398,8 +1408,8 @@ def respond_to_vhk(message):
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
         # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
-        if time_diff < 30:
-            bot.reply_to(message, f"<b>Try again after {30 - time_diff} seconds.</b>", parse_mode="HTML")
+        if time_diff < 15:
+            bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
     # تحديث وقت آخر طلب
@@ -1532,8 +1542,8 @@ def respond_to_vhk(message):
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
         # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
-        if time_diff < 30:
-            bot.reply_to(message, f"<b>Try again after {30 - time_diff} seconds.</b>", parse_mode="HTML")
+        if time_diff < 15:
+            bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
     # تحديث وقت آخر طلب
@@ -1556,8 +1566,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer</code>
 
 {str(dato(cc[:6]))}
 
@@ -1569,8 +1579,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
@@ -1582,8 +1592,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
@@ -1656,8 +1666,8 @@ def respond_to_vhk(message):
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
         # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
-        if time_diff < 30:
-            bot.reply_to(message, f"<b>Try again after {30 - time_diff} seconds.</b>", parse_mode="HTML")
+        if time_diff < 15:
+            bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
     # تحديث وقت آخر طلب
@@ -1680,8 +1690,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer </code>
 
 {str(dato(cc[:6]))}
 
@@ -1693,8 +1703,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
@@ -1706,8 +1716,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 2$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
@@ -1781,8 +1791,8 @@ def respond_to_vhk(message):
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
         # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
-        if time_diff < 30:
-            bot.reply_to(message, f"<b>Try again after {30 - time_diff} seconds.</b>", parse_mode="HTML")
+        if time_diff < 15:
+            bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
     # تحديث وقت آخر طلب
@@ -1953,8 +1963,8 @@ def respond_to_vhk(message):
     # تحقق من آخر وقت استخدم فيه المستخدم الأمر
     if user_id in last_command_usage:
         time_diff = (current_time - last_command_usage[user_id]).seconds
-        if time_diff < 30:  # إذا كانت المدة أقل من 30 ثانية
-            bot.reply_to(message, f"<b>Try again after {30 - time_diff} seconds.</b>", parse_mode="HTML")
+        if time_diff < 15:  # إذا كانت المدة أقل من 30 ثانية
+            bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
 
     # تحديث وقت الاستخدام الأخير
@@ -1977,7 +1987,7 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 4$</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
@@ -1990,8 +2000,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 4$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
@@ -2003,8 +2013,8 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
 j<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 4$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
@@ -2239,9 +2249,9 @@ def adode(message):
         
         vip_count = 0
         for user_id, details in json_data.items():
-            user_plan = details.get('plan', 'Free - Not Subscribed')
-            timer = details.get('timer', None)
-            if user_plan != 'Free - Not Subscribed' and timer:
+            user_plan = details.get('plan', 'VIP Subscribed')
+            timer = details.get('timer', '2024-11')
+            if user_plan != 'VIP Subscribed' and timer:
                 try:
                     date_str = timer.split('.')[0]
                     provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
@@ -2251,7 +2261,7 @@ def adode(message):
                 except Exception as e:
                     print(f"Error parsing date for user {user_id}: {e}")
 
-        bot.reply_to(message, f'- Total VIP Subscribers: {vip_count}')
+        bot.reply_to(message, f'- Total Subscribers: {vip_count}')
     else:
         bot.reply_to(message, "You are not authorized to use this command.")
 
@@ -2433,7 +2443,7 @@ def adodre(message):
 - Start Check Bot ¦ /start
 - Add New Subscriber ¦ /add + ID
 - Total Bot Users ¦ /tot
-- Send Msg Forr All ¦ /kil + msg
+- Send Msg Forr All ¦ /sendall + msg
 - Delete A Subsc ¦ /dele + ID
 - Show Sub's ID's ¦ /sh
 - Stop And Start The Gate's /gate
