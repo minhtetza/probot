@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAHGi-AKzKTkXJieOb1gExTodSjTDXStKFA"
+token = "7336963132:AAEF_95i9J6EQfdi1wTSXO8trnP3EqBj_Wc"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -858,14 +858,14 @@ def menu_callback(call):
                         return
                     start_time = time.time()
                     try:
-                        last = str(Tele2(cc))
+                        last = str(Tele1(cc))
                         cm += 1
                     except Exception as e:
                         print(e)
                         last = "RISK: gateway_error"
                     if 'Stripe Error: Your card was declined.' in last:
                      	last = 'Your Card Was Declined'   
-                    elif 'Your card does not support this type of purchase.' in last:
+                    elif 'CVV.' in last:
                      	last='CVV LIVE ✅'	
                     print(last)
                     mes = types.InlineKeyboardMarkup(row_width=1)
@@ -1051,7 +1051,7 @@ def menu_callback(call):
                         return
                     start_time = time.time()
                     try:
-                        last = str(Tele3(cc))
+                        last = str(Tele2(cc))
                         cm += 1
                     except Exception as e:
                         print(e)
@@ -1223,7 +1223,7 @@ def menu_callback(call):
                         return
                     start_time = time.time()
                     try:
-                        last = str(Tele4(cc))
+                        last = str(Tele3(cc))
                         cm += 1
                     except Exception as e:
                         print(e)
