@@ -487,6 +487,7 @@ def Tele4(ccx):
 		return 'success' or 'Thank you'
 	return ii
 	
+	
 import requests
 import re
 import random
@@ -681,4 +682,3 @@ jdhshsh%7C1722164426%7CQkqnUBtPMRYcYpcvKhriZedlcVJsl24RrNRohG9rVRM%7Cbb8a8b162fd
 	)
 	return (response.json())
 
-	
