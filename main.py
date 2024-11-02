@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAGc9MqYIfWmtgC0_4oWCJ1V5W-MuH5mOws"
+token = "7336963132:AAHsKnLOIJNq76kzUOx-mIQQEwslgI1E7Ds"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -891,7 +891,7 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : <code>Braintree Auth</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
@@ -1095,8 +1095,8 @@ def menu_callback(call):
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code> Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : Braintree Auth	
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Approved
 
 {str(dato(cc[:6]))}
 
@@ -1555,7 +1555,7 @@ def respond_to_vhk(message):
         ko = bot.reply_to(message, '𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛').message_id
         start_time = time.time()
         try:
-            last = str(Tele1(cc))
+            last = str(Tele2(cc))
         except:
             last = 'Gateway Error ❌'
         end_time = time.time()
@@ -1679,7 +1679,7 @@ def respond_to_vhk(message):
         ko = bot.reply_to(message, '𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛').message_id
         start_time = time.time()
         try:
-            last = str(Tele2(cc))
+            last = str(Tele3(cc))
         except:
             last = 'Gateway Error ❌'
         end_time = time.time()
@@ -1804,7 +1804,7 @@ def respond_to_vhk(message):
         ko = bot.reply_to(message, '𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛').message_id
         start_time = time.time()
         try:
-            last = str(Tele3(cc))
+            last = str(Tele4(cc))
         except:
             last = 'Gateway Error ❌'
         end_time = time.time()
