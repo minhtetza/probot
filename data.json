@@ -198,7 +198,8 @@
         "timer": "none"
     },
     "7372198851": {
-        "plan": "Free - Not Subscribed"
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
     },
     "6473717870": {
         "plan": "𝗙𝗥𝗘𝗘",
@@ -484,8 +485,7 @@
         "timer": "none"
     },
     "1083673684": {
-        "plan": "𝗩𝗜𝗣",
-        "timer": "2024-11-02 09:59"
+        "plan": "Free - Not Subscribed"
     },
     "GSIX-980R-L6WR-HGKJ": {
         "plan": "𝗩𝗜𝗣",
@@ -797,8 +797,7 @@
         "timer": "none"
     },
     "7330235439": {
-        "timer": "2024-10-30 19:39",
-        "plan": "VIP Subscribed"
+        "plan": "Free - Not Subscribed"
     },
     "6778012351": {
         "plan": "𝗙𝗥𝗘𝗘",
@@ -889,8 +888,8 @@
         "timer": "none"
     },
     "5819637797": {
-        "plan": "𝗙𝗥𝗘𝗘",
-        "timer": "none"
+        "timer": "2024-11-06 17:30",
+        "plan": "VIP Subscribed"
     },
     "5608481964": {
         "plan": "𝗙𝗥𝗘𝗘",
@@ -905,8 +904,8 @@
         "timer": "none"
     },
     "6875565014": {
-        "timer": "Unknown",
-        "plan": "𝗩𝗜𝗣"
+        "timer": "2024-11-06 20:28",
+        "plan": "VIP Subscribed"
     },
     "7673996454": {
         "plan": "𝗙𝗥𝗘𝗘",
@@ -1101,8 +1100,7 @@
         "timer": "none"
     },
     "7179858748": {
-        "timer": "2024-10-30 19:29",
-        "plan": "VIP Subscribed"
+        "plan": "Free - Not Subscribed"
     },
     "7202072688": {
         "plan": "Free - Not Subscribed"
@@ -1141,8 +1139,7 @@
         "plan": "Free - Not Subscribed"
     },
     "6467429678": {
-        "timer": "2024-10-30 19:31",
-        "plan": "VIP Subscribed"
+        "plan": "Free - Not Subscribed"
     },
     "5512117735": {
         "plan": "Free - Not Subscribed"
@@ -1435,5 +1432,142 @@
     },
     "1915986755": {
         "plan": "Free - Not Subscribed"
+    },
+    "6008343239": {
+        "plan": "Free - Not Subscribed"
+    },
+    "5865330788": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7427691214": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
+    },
+    "6198483831": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
+    },
+    "5617239137": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
+    },
+    "1965289355": {
+        "timer": "2024-11-06 14:08",
+        "plan": "VIP Subscribed"
+    },
+    "5333958484": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6683275951": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1717685055": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6415038212": {
+        "plan": "Free - Not Subscribed"
+    },
+    "8094063049": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
+    },
+    "5094195946": {
+        "plan": "Free - Not Subscribed"
+    },
+    "2099439835": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
+    },
+    "5360035900": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
+    },
+    "6976132776": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6413370277": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7075691620": {
+        "plan": "Free - Not Subscribed"
+    },
+    "5549076982": {
+        "plan": "Free - Not Subscribed"
+    },
+    "972366507": {
+        "plan": "Free - Not Subscribed"
+    },
+    "5772562889": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7928748882": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1944113838": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1699227126": {
+        "timer": "2024-11-03 11:24",
+        "plan": "VIP Subscribed"
+    },
+    "5953429568": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6931631253": {
+        "plan": "Free - Not Subscribed"
+    },
+    "910815479": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6997641212": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1352208092": {
+        "timer": "2024-11-11 02:52",
+        "plan": "VIP Subscribed"
+    },
+    "7245629786": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7404914862": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1167048396": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7311922580": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6360729420": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6275429327": {
+        "plan": "Free - Not Subscribed"
+    },
+    "5568078975": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1838451337": {
+        "plan": "Free - Not Subscribed"
+    },
+    "2136231272": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6652855196": {
+        "plan": "Free - Not Subscribed"
+    },
+    "800472655": {
+        "timer": "2024-11-06 22:46",
+        "plan": "VIP Subscribed"
+    },
+    "1435096556": {
+        "plan": "Free - Not Subscribed"
+    },
+    "990163640": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6198483831": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
     }
 }
