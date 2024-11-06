@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAG0qIhvU0-9cl5Ky86gmSwLBcFgmndy-vw"
+token = "7336963132:AAEO_qUH6RyI154yxnwW9_eKJn3wkV04EZY"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -32,7 +32,7 @@ admins = ['6191863486']
 
 
 content = [
-    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗬𝗼𝘂𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗶𝗻 𝗖𝗵𝗲𝗰𝗸 \n┃⚆ 𝗪𝗼𝗿𝗹𝗱 𝗕𝗼𝘁 ⚠️ ⚠️ 🚫\n┃⌧ 𝗗𝗘𝗩 @AboutGSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
+    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲  🎉🎉🎉🎉🎉🎉 \n┃⚆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗝𝗼𝗶𝗻 @AboutGSIX\n┃⌧ 𝗗𝗘𝗩 @AboutGSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
     "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼",
     "Admin Command\n COMBO /set_limit\n\nOFF GATE /offb1 ON GATE /onb1\nOFF GATE /offb2 ON GATE /onb2\nOFF GATE /offb3 ON GATE /onb3\nOFF GATE /offb4 ON GATE /onb4\nOFF GATE /offch1 ON GATE /onch1\nAdmin CMDS /menu",
     "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sendall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @AboutGSIX\n• Channel ¦ @AboutGSIX",
