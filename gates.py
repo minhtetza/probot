@@ -134,7 +134,7 @@ def Tele(ccx):
 
 	
 import requests,re
-def Tele(ccx):
+def Tele2(ccx):
 	import requests
 	ccx=ccx.strip()
 	n = ccx.split("|")[0]
