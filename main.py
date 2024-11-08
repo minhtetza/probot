@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAGQg0yOqUsItLjfmIhN9Brwu2PPKy9UPf8"
+token = "7336963132:AAGFKOuaV1ABztKRJcHblwEmd73I6WLAJsg"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -1849,7 +1849,7 @@ def respond_to_vhk(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
-        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
+        if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or '𝗖𝗖𝗡/𝗖𝗩𝗩' in last or "𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰" in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
