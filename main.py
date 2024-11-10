@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAG20rRLFBZqZhra9qMOCTYtGxI1HXVEhbQ"
+token = "7336963132:AAE5hKNGt02vRcm4zIORnCNgRuHVJyv1IGc"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -32,10 +32,10 @@ admins = ['6191863486']
 
 
 content = [
-    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲  🎉🎉🎉🎉🎉🎉 \n┃⚆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗝𝗼𝗶𝗻 @AboutGSIX\n┃⌧ 𝗗𝗘𝗩 @AboutGSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
-    "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼",
+    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲  🎉🎉🎉🎉🎉🎉 \n┃⚆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗝𝗼𝗶𝗻 @About_GSIX\n┃⌧ 𝗗𝗘𝗩 @About_GSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
+    "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@About_GSIX👼&👼 @Ownerxxxxx 👼",
     "Admin Command\n COMBO /set_limit\n\nOFF GATE /offb1 ON GATE /onb1\nOFF GATE /offb2 ON GATE /onb2\nOFF GATE /offb3 ON GATE /onb3\nOFF GATE /offb4 ON GATE /onb4\nOFF GATE /offch1 ON GATE /onch1\nAdmin CMDS /menu",
-    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sendall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @AboutGSIX\n• Channel ¦ @AboutGSIX",
+    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sendall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @About_GSIX\n• Channel ¦ @About_GSIX",
     "┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /chk 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃     \n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅                   \n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /cc 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 3\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /b3 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /sa 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 \n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /ba 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗜𝗡 𝗜𝗻𝗳𝗼 𝗟𝗼𝗼𝗸𝘂𝗽\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /bin 𝗕𝗜𝗡\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗙𝗿𝗲𝗲 𝗙𝗼𝗿 𝗔𝗹𝗹 ✅\n┗━━━━━━━━/━━━━━━━━⍟\n⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices \n⚆ 𝗠𝗮𝘀𝘀 𝗖𝗖 𝗖𝗼𝗺𝗯𝗼.𝘁𝘅𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗕𝗼𝘁\n⌧ 𝗪𝗲 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱𝗶𝗻𝗴 𝗠𝗼𝗿𝗲 𝗚𝗮𝘁𝗲𝘀...."  # New page added
 ]
 
@@ -101,7 +101,7 @@ def handle_pagination(call):
     elif call.data == 'Owner':
         # Respond to the "Owner" button click
         bot.answer_callback_query(call.id, "You clicked the Owner button!")
-        bot.send_message(chat_id, "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼\nBot Buy @Ownerxxxxx \n\n\nChannel 2 https://t.me/AboutGSIX \nCHECK CMDS /info")
+        bot.send_message(chat_id, "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@About_GSIX👼&👼 @Ownerxxxxx 👼\nBot Buy @Ownerxxxxx \n\n\nChannel 2 https://t.me/About_GSIX \nCHECK CMDS /info")
         return  # Skip editing message if Owner button is clicked
     elif call.data == 'new_page':
         # Handle the new page button click
@@ -156,7 +156,7 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == 'Free - Not Subscribed':	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/AboutGSIX")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			random_number = random.randint(10, 16)
 			photo_url = f'https://t.me/ufuciviv/{random_number}'
@@ -168,11 +168,11 @@ def start(message):
 ┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
 ┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /info
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="⚆ Our Channel ⚆", url="https://t.me/AboutGSIX")
+		contact_button = types.InlineKeyboardButton(text="⚆ Our Channel ⚆", url="https://t.me/About_GSIX")
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(10, 16)
@@ -185,7 +185,7 @@ def start(message):
 ┃⌧ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃⌧ 𝗧𝗵𝗲 𝗖𝗼𝗺𝗯𝗼 𝗖𝗖 𝗙𝗶𝗹𝗲 𝗦𝗲𝗻𝗱 
 ┃━━━━━━━━/━━━━━━━⍟
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟</strong>''',reply_markup=keyboard)
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
@@ -265,7 +265,7 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/AboutGSIX")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''
 ┏━━━━━━━━━━━━━━━━━⍟
@@ -274,7 +274,7 @@ def main(message):
 ┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
 ┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
@@ -284,7 +284,7 @@ def main(message):
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/AboutGSIX")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''
 ┏━━━━━━━━━━━━━━━━━⍟
@@ -293,14 +293,14 @@ def main(message):
 ┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
 ┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/AboutGSIX")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text='''<b>⚆ 𝗬𝗼𝘂𝗿 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗵𝗮𝘀 𝗘𝘅𝗽𝗶𝗿𝗲𝗱 •</b>
 		''',reply_markup=keyboard)
@@ -347,9 +347,9 @@ def dato(zh):
 		bank=api_url["bank"]
 		country_name=api_url["country_name"]
 		country_flag=api_url["country_flag"]
-		mn = f'''<a href='t.me/AboutGSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{brand} - {card_type} - {level}</code>
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank} </code>
-<a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country_name} [ {country_flag} ]</code>'''
+		mn = f'''<a href='t.me/About_GSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{brand} - {card_type} - {level}</code>
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank} </code>
+<a href='t.me/About_GSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country_name} [ {country_flag} ]</code>'''
 		return mn
 	except Exception as e:
 		print(e)
@@ -712,20 +712,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CCN CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CCN CHARGE 1$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last or 'Your card security code is invalid.' in last:
                         live += 1
@@ -739,7 +739,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @AboutGSIX')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -884,20 +884,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "APPROVED ✅" in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
@@ -911,7 +911,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @AboutGSIX')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1088,20 +1088,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : Braintree Auth	
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Approved
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : Braintree Auth	
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Approved
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'APPROVED ✅' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
@@ -1115,7 +1115,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @AboutGSIX')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1260,20 +1260,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or '𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or '𝗖𝗖𝗡/𝗖𝗩𝗩' in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
@@ -1287,7 +1287,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @AboutGSIX')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1429,42 +1429,42 @@ def respond_to_vhk(message):
 
         dec = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1477,7 +1477,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1563,42 +1563,42 @@ def respond_to_vhk(message):
 
         dec = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1611,7 +1611,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1687,42 +1687,42 @@ def respond_to_vhk(message):
 
         dec = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer </code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer </code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1735,7 +1735,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1812,42 +1812,42 @@ def respond_to_vhk(message):
 
         dec = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or '𝗖𝗖𝗡/𝗖𝗩𝗩' in last or "𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰" in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1860,7 +1860,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1984,42 +1984,42 @@ def respond_to_vhk(message):
 
         dec = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
-j<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/About_GSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/About_GSIX'>┃</a>𝐂𝐂 <code>{cc}</code>
+j<a href='t.me/About_GSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/About_GSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/About_GSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
+<a href='t.me/About_GSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/About_GSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or '𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰' in last in 'Your card security code is invalid.' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -2032,7 +2032,7 @@ j<a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -2448,8 +2448,8 @@ def adodre(message):
 - Show Sub's ID's ¦ /sh
 - Stop And Start The Gate's /gate
 ------------------------------------
-• Programmer ¦ @AboutGSIX
-• Channel ¦ @AboutGSIX''')
+• Programmer ¦ @About_GSIX
+• Channel ¦ @About_GSIX''')
 
 
 
@@ -2474,7 +2474,7 @@ def respondn_to_vhk(message):
 • We Accept All Payment Methods in World ✅
 • (💴💷🌐👛💀..........🌎🌎)
 
-• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@AboutGSIX👼&👼 @Ownerxxxxx 👼''')
+• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@About_GSIX👼&👼 @Ownerxxxxx 👼''')
 
 
 
