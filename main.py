@@ -14,26 +14,28 @@ import threading
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+
 import threading
 import time
 from telebot import types
 
 stopuser = {}
-token = "7314888193:AAG3BumZJt9ICTVwCFmTpNOIPV6brVQvYdw"
+token = "7336963132:AAHGMRS8kgAoBuz7kjoprZglxdGWejMPU6M"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
-admin=6481660742
 
-myid = ['6481660742']
+admin=6191863486
 
-admins = ['6481660742']
+myid = ['6191863486']
+
+admins = ['6191863486']
 
 
 content = [
-    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲  🎉🎉🎉🎉🎉🎉 \n┃⚆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗝𝗼𝗶𝗻 @l0serCCS\n┃⌧ 𝗗𝗘𝗩 @accelerant   \n┗━━━━━━━━/━━━━━━━━⍟",
-    "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of crypto payment ✅\n• We Accept All Payment Methods in crypto ✅\n• (💴..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@l0serCCS👼&👼 @accelerant 👼",
+    "┏━━━━━━━━━━━━━━━━━⍟			\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗗𝗲𝗮𝗿 -> ⚆\n┃⚆ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲  🎉🎉🎉🎉🎉🎉 \n┃⚆ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗝𝗼𝗶𝗻 @About_GSIX\n┃⌧ 𝗗𝗘𝗩 @About_GSIX 『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』 🇲🇲  \n┗━━━━━━━━/━━━━━━━━⍟",
+    "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of international payment ✅\n• We Accept All Payment Methods in World ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@About_GSIX👼&👼 @Ownerxxxxx 👼",
     "Admin Command\n COMBO /set_limit\n\nOFF GATE /offb1 ON GATE /onb1\nOFF GATE /offb2 ON GATE /onb2\nOFF GATE /offb3 ON GATE /onb3\nOFF GATE /offb4 ON GATE /onb4\nOFF GATE /offch1 ON GATE /onch1\nAdmin CMDS /menu",
-    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sendall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @l0serCCS\n• Channel ¦ @l0serCCS",
+    "- Welcome My Boss ♡\n- Start Check Bot ¦ /start\n- Add New Subscriber ¦ /add + ID\n- Total Bot Users ¦ /tot\n- Send Msg Forr All ¦ /sendall + msg\n- Delete A Subsc ¦ /dele + ID\n- Show Sub's ID's ¦ /sh\n- Stop And Start The Gate's /gate\n------------------------------------\n• Programmer ¦ @About_GSIX\n• Channel ¦ @About_GSIX",
     "┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 1\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /chk 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃     \n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅                   \n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /cc 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 3\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /b3 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗦𝗧𝗥𝗜𝗣𝗘 𝗖𝗛𝗔𝗥𝗚𝗘 4\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /sa 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 \n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /ba 𝗰𝗮𝗿𝗱|𝗺𝗼𝗻𝘁𝗵|𝘆𝗲𝗮𝗿|𝗰𝘃𝘃\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗢𝗻𝗹𝘆-𝗩𝗶𝗽-𝗨𝘀𝗲𝗿\n┗━━━━━━━━/━━━━━━━━⍟\n┏━━━━━━━━━━━━━━━━━⍟\n┃⚆ 𝗡𝗮𝗺𝗲: 𝗕𝗜𝗡 𝗜𝗻𝗳𝗼 𝗟𝗼𝗼𝗸𝘂𝗽\n┃⌧ 𝗙𝗼𝗿𝗺𝗮𝘁: /bin 𝗕𝗜𝗡\n┃⚆ 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: 𝗢𝗡! ✅\n┃⌧ 𝗧𝘆𝗽𝗲: 𝗙𝗿𝗲𝗲 𝗙𝗼𝗿 𝗔𝗹𝗹 ✅\n┗━━━━━━━━/━━━━━━━━⍟\n⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices \n⚆ 𝗠𝗮𝘀𝘀 𝗖𝗖 𝗖𝗼𝗺𝗯𝗼.𝘁𝘅𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗕𝗼𝘁\n⌧ 𝗪𝗲 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱𝗶𝗻𝗴 𝗠𝗼𝗿𝗲 𝗚𝗮𝘁𝗲𝘀...."  # New page added
 ]
 
@@ -99,7 +101,7 @@ def handle_pagination(call):
     elif call.data == 'Owner':
         # Respond to the "Owner" button click
         bot.answer_callback_query(call.id, "You clicked the Owner button!")
-        bot.send_message(chat_id, "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We accept all types of crypto payment ✅\n• We Accept All Payment Methods in Crypto ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@l0serCCS👼&👼 @accelerant 👼\nBot Buy @accelerant \n\n\nChannel 2 https://t.me/l0serCCS \nCHECK CMDS /info")
+        bot.send_message(chat_id, "• Bot Subscription Prices - Bot Prices •\n⬅️ Combo CC Checker Bot 🛒👑\n- (4 Gates, 4 Gates) ⭐️\n- (Manual Check, Combo Check) ⭐️\n1- One Day •💷Day -> 3 ⚡️\n1- Week •💷 Week -> 10 ⚡️\n1- Half Month •💷Half Month -> 20 ⚡️\n1- Month •💷Month -> 25 ⚡️\n• We Accept All Payment Methods in USDT BTX BTC TRC EHT BNB ✅\n• (💴💷🌐👛💀..........🌎🌎)\n• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@About_GSIX👼&👼 @Ownerxxxxx 👼\nBot Buy @Ownerxxxxx \n\n\nChannel 2 https://t.me/addlist/u2A-7na8YtdhZWVl \nCHECK CMDS /info")
         return  # Skip editing message if Owner button is clicked
     elif call.data == 'new_page':
         # Handle the new page button click
@@ -154,7 +156,7 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == 'Free - Not Subscribed':	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/l0serCCS")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			random_number = random.randint(10, 16)
 			photo_url = f'https://t.me/ufuciviv/{random_number}'
@@ -166,11 +168,11 @@ def start(message):
 ┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
 ┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /info
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/l0serCCS'>cool guy</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="⚆ Our Channel ⚆", url="https://t.me/l0serCCS")
+		contact_button = types.InlineKeyboardButton(text="⚆ Our Channel ⚆", url="https://t.me/About_GSIX")
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(10, 16)
@@ -183,7 +185,7 @@ def start(message):
 ┃⌧ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃⌧ 𝗧𝗵𝗲 𝗖𝗼𝗺𝗯𝗼 𝗖𝗖 𝗙𝗶𝗹𝗲 𝗦𝗲𝗻𝗱 
 ┃━━━━━━━━/━━━━━━━⍟
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/l0serCCS'>cool guy</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟</strong>''',reply_markup=keyboard)
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
@@ -263,7 +265,7 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/l0serCCS")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''
 ┏━━━━━━━━━━━━━━━━━⍟
@@ -272,7 +274,7 @@ def main(message):
 ┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
 ┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/l0serCCS'>cool guy</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
@@ -282,7 +284,7 @@ def main(message):
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/l0serCCS")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/About_GSIX")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''
 ┏━━━━━━━━━━━━━━━━━⍟
@@ -291,14 +293,14 @@ def main(message):
 ┃⚆ 𝗖𝗵𝗲𝗰𝗸 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗦𝗲𝗻𝗱 ! /info
 ┃━━━━━━━━/━━━━━━━━⍟
 ┃⌧ 𝗙𝗼𝗿 𝗦𝗵𝗼𝘄 𝗕𝗼𝘁 𝗣𝗿𝗶𝗰𝗲𝘀 𝗦𝗲𝗻𝗱 ! /prices
-┃⌧ 𝗗𝗘𝗩 <a href='t.me/l0serCCS'>cool guy</a>  
+┃⌧ 𝗗𝗘𝗩 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>  
 ┗━━━━━━━━/━━━━━━━━⍟''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/l0serCCS")
+			contact_button = types.InlineKeyboardButton(text="⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 - CN", url="https://t.me/addlist/u2A-7na8YtdhZWVl")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text='''<b>⚆ 𝗬𝗼𝘂𝗿 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗵𝗮𝘀 𝗘𝘅𝗽𝗶𝗿𝗲𝗱 •</b>
 		''',reply_markup=keyboard)
@@ -345,9 +347,9 @@ def dato(zh):
 		bank=api_url["bank"]
 		country_name=api_url["country_name"]
 		country_flag=api_url["country_flag"]
-		mn = f'''<a href='t.me/l0serCCS'>-</a> 𝐈𝐧𝐟𝐨: <code>{brand} - {card_type} - {level}</code>
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank} </code>
-<a href='t.me/l0serCCS'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country_name} [ {country_flag} ]</code>'''
+		mn = f'''<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐈𝐧𝐟𝐨: <code>{brand} - {card_type} - {level}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank} </code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country_name} [ {country_flag} ]</code>'''
 		return mn
 	except Exception as e:
 		print(e)
@@ -498,7 +500,7 @@ def disable_br3(message):
 
 from telebot import types
 
-# تعريف المتغيرات لحالة البوابات
+
 check_enabled_br1 = True
 check_enabled_br2 = True
 check_enabled_br3 = True
@@ -581,7 +583,7 @@ def set_limit(message):
             MAX_LINES = new_limit
             bot.reply_to(message, f"Gate limit has been set to {MAX_LINES}.")
             
-            # تحديث قائمة الخيارات في الرسالة
+       
             show_menu(message)
         else:
             bot.reply_to(message, "Please use the correct format: /set_limit 1000.")
@@ -662,7 +664,7 @@ def menu_callback(call):
                 lines = file.readlines()
                 total_lines = len(lines)
 
-                # تحقق من عدد الأسطر
+              
                 if total_lines > MAX_LINES:
                     bot.send_message(
                         chat_id=call.message.chat.id,
@@ -672,7 +674,7 @@ def menu_callback(call):
                             "• 𝐂𝐇𝐄𝐂𝐊 𝐘𝐎𝐔𝐑 𝐅𝐈𝐋𝐄 𝐀𝐍𝐃 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 📣"
                         )
                     )
-                    stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                    stopuser[id]['status'] = 'stopped'  
                     return
 
                 stopuser[id] = {'status': 'start'}
@@ -680,7 +682,7 @@ def menu_callback(call):
                 for cc in lines:
                     if stopuser[id]['status'] == 'stop':
                         bot.send_message(chat_id=id, text='⚆ 𝗗𝗼𝗻𝗲 𝗦𝘁𝗼𝗽 𝗖𝗵𝗲𝗰𝗸 𝗖𝗮𝗿𝗱𝘀 📣⚡')
-                        stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                        stopuser[id]['status'] = 'stopped' 
                         return
                     start_time = time.time()
                     try:
@@ -710,20 +712,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CCN CHARGE 1$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CCN CHARGE 1$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last or 'Your card security code is invalid.' in last:
                         live += 1
@@ -737,7 +739,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @l0serCCS')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -834,7 +836,7 @@ def menu_callback(call):
                 lines = file.readlines()
                 total_lines = len(lines)
 
-                # تحقق من عدد الأسطر
+               
                 if total_lines > MAX_LINES:
                     bot.send_message(
                         chat_id=call.message.chat.id,
@@ -844,7 +846,7 @@ def menu_callback(call):
                             "• 𝐂𝐇𝐄𝐂𝐊 𝐘𝐎𝐔𝐑 𝐅𝐈𝐋𝐄 𝐀𝐍𝐃 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 📣"
                         )
                     )
-                    stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                    stopuser[id]['status'] = 'stopped' 
                     return
 
                 stopuser[id] = {'status': 'start'}
@@ -852,7 +854,7 @@ def menu_callback(call):
                 for cc in lines:
                     if stopuser[id]['status'] == 'stop':
                         bot.send_message(chat_id=id, text='⚆ 𝗗𝗼𝗻𝗲 𝗦𝘁𝗼𝗽 𝗖𝗵𝗲𝗰𝗸 𝗖𝗮𝗿𝗱𝘀 📣⚡')
-                        stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                        stopuser[id]['status'] = 'stopped' 
                         return
                     start_time = time.time()
                     try:
@@ -882,20 +884,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "APPROVED ✅" in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
@@ -909,7 +911,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @l0serCCS')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1027,7 +1029,7 @@ def menu_callback(call):
                 lines = file.readlines()
                 total_lines = len(lines)
 
-                # تحقق من عدد الأسطر
+               
                 if total_lines > MAX_LINES:
                     bot.send_message(
                         chat_id=call.message.chat.id,
@@ -1037,7 +1039,7 @@ def menu_callback(call):
                             "• 𝐂𝐇𝐄𝐂𝐊 𝐘𝐎𝐔𝐑 𝐅𝐈𝐋𝐄 𝐀𝐍𝐃 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 📣"
                         )
                     )
-                    stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                    stopuser[id]['status'] = 'stopped'
                     return
 
                 stopuser[id] = {'status': 'start'}
@@ -1045,7 +1047,7 @@ def menu_callback(call):
                 for cc in lines:
                     if stopuser[id]['status'] == 'stop':
                         bot.send_message(chat_id=id, text='⚆ 𝗗𝗼𝗻𝗲 𝗦𝘁𝗼𝗽 𝗖𝗵𝗲𝗰𝗸 𝗖𝗮𝗿𝗱𝘀 📣⚡')
-                        stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                        stopuser[id]['status'] = 'stopped'  
                         return
                     start_time = time.time()
                     try:
@@ -1086,20 +1088,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : Braintree Auth	
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Approved
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 : Braintree Auth	
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Approved
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'APPROVED ✅' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
@@ -1113,7 +1115,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @l0serCCS')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1209,7 +1211,7 @@ def menu_callback(call):
                 lines = file.readlines()
                 total_lines = len(lines)
 
-                # تحقق من عدد الأسطر
+             
                 if total_lines > MAX_LINES:
                     bot.send_message(
                         chat_id=call.message.chat.id,
@@ -1219,7 +1221,7 @@ def menu_callback(call):
                             "• 𝐂𝐇𝐄𝐂𝐊 𝐘𝐎𝐔𝐑 𝐅𝐈𝐋𝐄 𝐀𝐍𝐃 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 📣"
                         )
                     )
-                    stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                    stopuser[id]['status'] = 'stopped' 
                     return
 
                 stopuser[id] = {'status': 'start'}
@@ -1227,7 +1229,7 @@ def menu_callback(call):
                 for cc in lines:
                     if stopuser[id]['status'] == 'stop':
                         bot.send_message(chat_id=id, text='⚆ 𝗗𝗼𝗻𝗲 𝗦𝘁𝗼𝗽 𝗖𝗵𝗲𝗰𝗸 𝗖𝗮𝗿𝗱𝘀 📣⚡')
-                        stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص
+                        stopuser[id]['status'] = 'stopped'  
                         return
                     start_time = time.time()
                     try:
@@ -1258,20 +1260,20 @@ def menu_callback(call):
                         text=f'''
 <b>⚆ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗖𝗮𝗿𝗱𝘀 💫
 ⚆ 𝗚𝗔𝗧𝗘 -> {gate} 💫
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a> </b>''', 
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a> </b>''', 
                         reply_markup=mes)
 
                     msg = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
                     if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or '𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or '𝗖𝗖𝗡/𝗖𝗩𝗩' in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
                         live += 1
@@ -1285,7 +1287,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  
-        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @l0serCCS')
+        bot.send_message(chat_id=call.message.chat.id, text='⚆ 𝗗𝗼𝗻𝗲 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗖𝗮𝗿𝗱𝘀 ✅\n ⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿 • @About_GSIX')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1336,7 +1338,7 @@ def stop_check(call):
 import json
 from datetime import datetime, timedelta
 
-# دالة تحقق من خطة المستخدم
+
 def check_user_plan(user_id):
     with open('data.json', 'r') as file:
         json_data = json.load(file)
@@ -1348,7 +1350,7 @@ def check_user_plan(user_id):
             try:
                 provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
                 current_time = datetime.now()
-                if current_time - provided_time <= timedelta(hours=0):  # قم بتعديل فترة الاشتراك حسب الحاجة
+                if current_time - provided_time <= timedelta(hours=0):  
                     return True
             except Exception as e:
                 return False
@@ -1394,23 +1396,25 @@ def handle_admin_commands(message):
 def respond_to_vhk(message):
     global check_enabled_br1
     user_id = message.chat.id
+    user_username = message.from_user.username
+    user_first_name = message.from_user.first_name
     current_time = datetime.now()
 
-    # تحقق من حالة بوابة رقم 1
+ 
     if not check_enabled_br1:
         bot.reply_to(message, "<b>⚆ 𝗚𝗮𝘁𝗲𝘄𝗮𝘆 𝗶𝘀 𝘂𝗻𝗱𝗲𝗿 𝗺𝗮𝗶𝗻𝘁𝗲𝗻𝗮𝗻𝗰𝗲 ❌.</b>", parse_mode="HTML")
         return
 
-    # تحقق من وجود آخر وقت استخدام للأمر للمستخدم
+  
     if user_id in command_usage:
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
-        # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
+ 
         if time_diff < 15:
             bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
-    # تحديث وقت آخر طلب
+
     command_usage[user_id] = {'last_time': current_time}
 
     if check_user_plan(user_id):
@@ -1426,46 +1430,49 @@ def respond_to_vhk(message):
         execution_time = end_time - start_time
 
         dec = f'''
-<a href='t.me/l0serCCS'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
-            bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
+            bot.edit_message_text(text=cvc, chat_id=message.chat.id, user_username = message.from_user.username, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
         else:
@@ -1475,7 +1482,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1500,10 +1507,10 @@ def respond_to_vhk(message):
 import time
 from datetime import datetime, timedelta
 
-# قم بتعريف قاموس لتخزين وقت آخر طلب لكل مستخدم
+
 command_usage = {}
 
-# الحالة الافتراضية لبوابة رقم 2 (مفعلة)
+
 check_enabled_br2 = True
 
 @bot.message_handler(commands=['offb2'])
@@ -1528,23 +1535,25 @@ def handle_admin_commands(message):
 def respond_to_vhk(message):
     global check_enabled_br2
     user_id = message.chat.id
+    user_username = message.from_user.username
+    user_first_name = message.from_user.first_name
     current_time = datetime.now()
 
-    # تحقق من حالة بوابة رقم 2
+
     if not check_enabled_br2:
         bot.reply_to(message, "<b>- Gateway is under maintenance ❌.</b>", parse_mode="HTML")
         return
 
-    # تحقق من وجود آخر وقت استخدام للأمر للمستخدم
+
     if user_id in command_usage:
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
-        # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
+   
         if time_diff < 15:
             bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
-    # تحديث وقت آخر طلب
+ 
     command_usage[user_id] = {'last_time': current_time}
 
     if check_user_plan(user_id):
@@ -1560,46 +1569,49 @@ def respond_to_vhk(message):
         execution_time = end_time - start_time
 
         dec = f'''
-<a href='t.me/l0serCCS'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
-            bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
+            bot.edit_message_text(text=cvc, chat_id=message.chat.id, user_username = message.from_user.username, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
         else:
@@ -1609,7 +1621,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1624,10 +1636,10 @@ def respond_to_vhk(message):
 import time
 from datetime import datetime, timedelta
 
-# قم بتعريف قاموس لتخزين وقت آخر طلب لكل مستخدم
+
 command_usage = {}
 
-# الحالة الافتراضية لبوابة رقم 3 (مفعلة)
+
 check_enabled_br3 = True
 
 @bot.message_handler(commands=['offb3'])
@@ -1652,23 +1664,25 @@ def handle_admin_commands(message):
 def respond_to_vhk(message):
     global check_enabled_br3
     user_id = message.chat.id
+    user_username = message.from_user.username
+    user_first_name = message.from_user.first_name
     current_time = datetime.now()
 
-    # تحقق من حالة بوابة رقم 3
+ 
     if not check_enabled_br3:
         bot.reply_to(message, "<b>- Gateway is under maintenance ❌.</b>", parse_mode="HTML")
         return
 
-    # تحقق من وجود آخر وقت استخدام للأمر للمستخدم
+  
     if user_id in command_usage:
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
-        # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
+     
         if time_diff < 15:
             bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
-    # تحديث وقت آخر طلب
+ 
     command_usage[user_id] = {'last_time': current_time}
 
     if check_user_plan(user_id):
@@ -1684,46 +1698,49 @@ def respond_to_vhk(message):
         execution_time = end_time - start_time
 
         dec = f'''
-<a href='t.me/l0serCCS'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer </code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Declined - Call Issuer </code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Braintree Auth</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Approved</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
-            bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
+            bot.edit_message_text(text=cvc, chat_id=message.chat.id, user_username = message.from_user.username, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
         else:
@@ -1733,7 +1750,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1749,10 +1766,10 @@ def respond_to_vhk(message):
 import time
 from datetime import datetime, timedelta
 
-# قم بتعريف قاموس لتخزين وقت آخر طلب لكل مستخدم
+
 command_usage = {}
 
-# الحالة الافتراضية لبوابة رقم 4 (مفعلة)
+
 check_enabled_br4 = True
 
 @bot.message_handler(commands=['offb4'])
@@ -1777,23 +1794,25 @@ def handle_admin_commands(message):
 def respond_to_vhk(message):
     global check_enabled_br4
     user_id = message.chat.id
+    user_username = message.from_user.username
+    user_first_name = message.from_user.first_name
     current_time = datetime.now()
     
-    # تحقق من حالة بوابة رقم 4
+
     if not check_enabled_br4:
         bot.reply_to(message, "<b>- Gateway is under maintenance ❌.</b>", parse_mode="HTML")
         return
 
-    # تحقق من وجود آخر وقت استخدام للأمر للمستخدم
+   
     if user_id in command_usage:
         last_time = command_usage[user_id]['last_time']
         time_diff = (current_time - last_time).seconds
-        # تحقق مما إذا كان الوقت الفاصل أقل من 30 ثانية
+   
         if time_diff < 15:
             bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
     
-    # تحديث وقت آخر طلب
+  
     command_usage[user_id] = {'last_time': current_time}
 
     if check_user_plan(user_id):
@@ -1809,46 +1828,49 @@ def respond_to_vhk(message):
         execution_time = end_time - start_time
 
         dec = f'''
-<a href='t.me/l0serCCS'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or '𝗖𝗖𝗡/𝗖𝗩𝗩' in last or "𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰" in last or 'Membership confirmation' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or 'stripe_3ds2_fingerprint' in last in 'Your card security code is invalid.' in last:
-            bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
+            bot.edit_message_text(text=cvc, chat_id=message.chat.id, user_username = message.from_user.username, message_id=ko)
         elif "success" in last or 'Your card has insufficient funds' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
         else:
@@ -1858,7 +1880,7 @@ def respond_to_vhk(message):
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/About_GSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -1923,10 +1945,10 @@ def respond_to_vhk(message):
 
 from datetime import datetime, timedelta
 
-# قم بإنشاء قاموس لتتبع آخر وقت استخدم فيه كل مستخدم الأمر
+
 last_command_usage = {}
 
-# الحالة الافتراضية لبوابة رقم 1 (مفعلة)
+
 check_enabled_ch1 = True
 
 @bot.message_handler(commands=['offch1'])
@@ -1951,21 +1973,23 @@ def handle_admin_commands(message):
 def respond_to_vhk(message):
     global check_enabled_ch1
     user_id = message.chat.id
+    user_username = message.from_user.username
+    user_first_name = message.from_user.first_name
     current_time = datetime.now()
 
-    # تحقق من حالة بوابة رقم 1
+
     if not check_enabled_ch1:
         bot.reply_to(message, "<b>- Gateway is under maintenance ❌.</b>", parse_mode="HTML")
         return
 
-    # تحقق من آخر وقت استخدم فيه المستخدم الأمر
+
     if user_id in last_command_usage:
         time_diff = (current_time - last_command_usage[user_id]).seconds
-        if time_diff < 15:  # إذا كانت المدة أقل من 30 ثانية
+        if time_diff < 15: 
             bot.reply_to(message, f"<b>Try again after {15 - time_diff} seconds.</b>", parse_mode="HTML")
             return
 
-    # تحديث وقت الاستخدام الأخير
+ 
     last_command_usage[user_id] = current_time
 
     if check_user_plan(user_id):
@@ -1981,46 +2005,49 @@ def respond_to_vhk(message):
         execution_time = end_time - start_time
 
         dec = f'''
-<a href='t.me/l0serCCS'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝗗𝗲𝗰𝗹𝗶𝗻𝗲𝗱 ❌
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         ok = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         cvc = f'''
-<a href='t.me/l0serCCS'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/l0serCCS'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/l0serCCS'>┃</a>𝐂𝐂 <code>{cc}</code>
-j<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
-<a href='t.me/l0serCCS'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/l0serCCS'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
+j<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
 
-<a href='t.me/l0serCCS'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/l0serCCS'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/l0serCCS'>cool guy</a>'''
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲:<a href='t.me/{user_username}'>{user_first_name}</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>'''
 
         if 'success' in last or 'Stripe Error: Your card insufficient funds.' in last or 'Thank you for supporting' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last or '𝟯𝗗 𝗟𝗜𝗩𝗘 💰' in last or 'Thank You for your donation' in last or 'Stripe Error: Your card incorrect_cvc' in last or 'The zip code you supplied failed validation.' in last or 'Stripe Error: Your card security code is incorrect' in last or '𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰' in last in 'Your card security code is invalid.' in last:
-            bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
+            bot.edit_message_text(text=cvc, chat_id=message.chat.id, user_username = message.from_user.username, message_id=ko)
         elif "success" in last or '𝗖𝗖𝗡/𝗖𝗩𝗩' in last or 'Your card does not support this type of purchase.' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
             bot.edit_message_text(text=ok, chat_id=message.chat.id, message_id=ko)
         else:
@@ -2030,7 +2057,7 @@ j<a href='t.me/l0serCCS'>┗━━━━━━━⊛</a>
 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲𝗱 𝗚𝗦𝗜𝗫 𝗕𝗢𝗧 !❌
 
 ⚆ 𝗬𝗼𝘂𝗿 𝗜𝗗 : {message.chat.id}
-⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/l0serCCS'>cool guy</a>''')
+⚆ 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲𝗿<a href='t.me/addlist/u2A-7na8YtdhZWVl'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 🇲🇲</a>''')
 
 
 
@@ -2094,7 +2121,7 @@ def notify_admins(user_id, user_data):
 • Username: @{user_username}
 • Plan: {user_data.get('plan', 'Free - Not Subscribed')}
 • Expiration Date: {user_data.get('timer', 'N/A')}
-• Bot Subscription @accelerant
+• Bot Subscription @Ownerxxxxx
 '''
     for admin_id in myid:
         bot.send_message(admin_id, message)
@@ -2107,12 +2134,12 @@ def notify_user(user_id):
 
 def update_subscription_status():
     try:
-        # قراءة بيانات المستخدمين من ملف data.json
+    
         with open('data.json', 'r') as file:
             json_data = json.load(file)
         
         current_time = datetime.now()
-        updated = False  # لنعرف إذا كانت هناك تحديثات
+        updated = False  
 
         for user_id, user_data in json_data.items():
             timer_str = user_data.get('timer', None)
@@ -2122,11 +2149,11 @@ def update_subscription_status():
                     
                     if current_time > expiration_time:
                         user_data['plan'] = 'Free - Not Subscribed'
-                        del user_data['timer']  # حذف الوقت بعد التحديث
+                        del user_data['timer'] 
                         updated = True
-                        # إرسال إشعار إلى الأدمن
+                        
                         notify_admins(user_id, user_data)
-                        # إرسال إشعار إلى المستخدم
+                       
                         notify_user(user_id)
                 except ValueError:
                     m = (f"Date format error for user {user_id} with date {timer_str}")
@@ -2142,9 +2169,9 @@ def update_subscription_status():
 def schedule_check():
     while True:
         update_subscription_status()
-        time.sleep(1)  # تحقق كل دقيقة
+        time.sleep(1)  
 
-# بدء عملية التحقق من الاشتراكات في خيط منفصل
+
 check_thread = threading.Thread(target=schedule_check)
 check_thread.start()
 
@@ -2165,7 +2192,7 @@ check_thread.start()
 import json
 from datetime import datetime, timedelta
 
-# دالة تحقق من خطة المستخدم
+
 def check_user_plan(user_id):
     with open('data.json', 'r') as file:
         json_data = json.load(file)
@@ -2177,7 +2204,7 @@ def check_user_plan(user_id):
             try:
                 provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
                 current_time = datetime.now()
-                if current_time - provided_time <= timedelta(hours=0):  # قم بتعديل فترة الاشتراك حسب الحاجة
+                if current_time - provided_time <= timedelta(hours=0):  
                     return True
             except Exception as e:
                 print(f"Error parsing date for user {user_id}: {e}")
@@ -2254,7 +2281,7 @@ def adode(message):
                     date_str = timer.split('.')[0]
                     provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
                     current_time = datetime.now()
-                    if current_time - provided_time <= timedelta(hours=0):  # قم بتعديل فترة الاشتراك حسب الحاجة
+                    if current_time - provided_time <= timedelta(hours=0): 
                         vip_count += 1
                 except Exception as e:
                     print(f"Error parsing date for user {user_id}: {e}")
@@ -2302,7 +2329,7 @@ def show_vip_subscribers(message):
                 else:
                     expiration_date_str = 'NO EXPIRATION DATE'
                 
-                # الحصول على تفاصيل المستخدم
+                
                 try:
                     chat = bot.get_chat(user_id)
                     user_name = chat.first_name
@@ -2349,16 +2376,16 @@ from datetime import datetime
 
 def remove_subscription(user_id):
     try:
-        # قراءة بيانات المستخدمين من ملف data.json
+        
         with open('data.json', 'r') as file:
             json_data = json.load(file)
         
         if user_id in json_data:
-            # تحويل الخطة إلى FREE
+          
             json_data[user_id]['plan'] = 'Free - Not Subscribed'
-            del json_data[user_id]['timer']  # حذف الوقت إن وجد
+            del json_data[user_id]['timer'] 
             
-            # كتابة البيانات المعدلة إلى data.json
+            
             with open('data.json', 'w') as file:
                 json.dump(json_data, file, indent=2, ensure_ascii=False)
             p = (f"Subscription for user {user_id} has been set to FREE.")
@@ -2373,7 +2400,7 @@ def qwwem(message):
     if str(message.chat.id) in admins:
         user_id = message.text.replace("/dele ", "")
         
-        # تحويل اشتراك المستخدم إلى FREE
+        
         remove_subscription(user_id)
         
         try:
@@ -2413,7 +2440,7 @@ def qwwem(message):
 def send_user_info(message):
     user_id = message.from_user.id
     user_first_name = message.from_user.first_name
-    user_username = message.from_user.username or 'NoUsername'  # التعامل مع حالة عدم وجود اسم مستخدم
+    user_username = message.from_user.username or 'NoUsername'  
     
     response_message = f'''🌟 Welcome » {user_first_name}
 🆔 ID » <code>{user_id}</code>
@@ -2446,8 +2473,8 @@ def adodre(message):
 - Show Sub's ID's ¦ /sh
 - Stop And Start The Gate's /gate
 ------------------------------------
-• Programmer ¦ @l0serCCS
-• Channel ¦ @l0serCCS''')
+• Programmer ¦ @About_GSIX
+• Channel ¦ @About_GSIX''')
 
 
 
@@ -2468,11 +2495,10 @@ def respondn_to_vhk(message):
 1- Half Month •💷Half Month -> 20 ⚡️
 1- Month •💷Month -> 25 ⚡️
 
-• We accept all types of crypto payment ✅
-• We Accept All Payment Methods in Crypto ✅
-• (💴..........🌎🌎)
+• We Accept All Payment Methods in USDT BTX BTC TRC EHT BNB ✅
+• (💴💷🌐👛💀..........🌎🌎)
 
-• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@l0serCCS👼&👼 @accelerant 👼''')
+• For Subscribe & Inquiry - For Communication and Inquiry •  🛩 🖱👼@About_GSIX👼&👼 @Ownerxxxxx 👼''')
 
 
 
@@ -2491,7 +2517,7 @@ from datetime import datetime, timedelta
 import random
 import string
 
-# وظيفة توليد كود
+
 @bot.message_handler(commands=["code"])
 def generate_code(message):
     def my_function():
@@ -2556,33 +2582,33 @@ def generate_code(message):
     
     
 
-# وظيفة استرداد كود
+
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.redeem') or message.text.lower().startswith('/redeem'))
 def respond_to_vbv(message):
     def my_function():
         try:
-            # استخراج الكود من الرسالة
+            
             re = message.text.split(' ')[1]
             
-            # قراءة البيانات من data.json
+            
             with open('data.json', 'r') as file:
                 json_data = json.load(file)
             
-            # تحقق من وجود الكود في البيانات
+            
             if re in json_data:
                 timer = json_data[re].get('timer', 'Unknown')
                 typ = json_data[re].get('plan', 'Free - Not Subscribed')
 
-                # تحديث بيانات المستخدم الحالي
+                
                 json_data[str(message.from_user.id)] = {
                     'timer': timer,
                     'plan': typ
                 }
                 
-                # حذف الكود القديم
+                
                 del json_data[re]
                 
-                # كتابة البيانات المعدلة إلى data.json
+                
                 with open('data.json', 'w') as file:
                     json.dump(json_data, file, indent=2, ensure_ascii=False)
 
@@ -2628,7 +2654,7 @@ def respond_to_vbv(message):
     
     
 
-# وظيفة إضافة مستخدم جديد إلى خطة VIP
+
 @bot.message_handler(commands=['add'])
 def add_subscription(message):
     def my_function():
@@ -2644,21 +2670,21 @@ def add_subscription(message):
                 expiration_time_str = expiration_time.strftime("%Y-%m-%d %H:%M")
                 plan = 'VIP Subscribed'
                 
-                # قراءة البيانات من data.json
+               
                 with open('data.json', 'r') as json_file:
                     existing_data = json.load(json_file)
                 
-                # تحديث بيانات المستخدم الجديد
+                
                 existing_data[user_id] = {
                     'timer': expiration_time_str,
                     'plan': plan
                 }
                 
-                # كتابة البيانات المعدلة إلى data.json
+                
                 with open('data.json', 'w') as json_file:
                     json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
                 
-                # الحصول على تفاصيل المستخدم
+                
                 try:
                     chat = bot.get_chat(user_id)
                     frs = chat.first_name
