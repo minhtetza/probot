@@ -640,7 +640,8 @@
         "timer": "none"
     },
     "6038629645": {
-        "plan": "Free - Not Subscribed"
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
     },
     "6577562320": {
         "plan": "𝗙𝗥𝗘𝗘",
@@ -3331,5 +3332,21 @@
     },
     "1963679966": {
         "plan": "Free - Not Subscribed"
+    },
+    "5342835432": {
+        "plan": "Free - Not Subscribed"
+    },
+    "1641661968": {
+        "plan": "Free - Not Subscribed"
+    },
+    "6808696085": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7564471357": {
+        "plan": "Free - Not Subscribed"
+    },
+    "7229423471": {
+        "plan": "Free - Not Subscribed",
+        "timer": "none"
     }
 }
