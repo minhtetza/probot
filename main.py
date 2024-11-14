@@ -2012,7 +2012,7 @@ def respond_to_vhk(message):
 <a href='https://envs.sh/j9_.jpg'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
-j<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: ⤿ 𝘚𝘛𝘙𝘐𝘗𝘌 𝘈𝘜𝘛𝘏 🟢 ⤾		
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: ⤿ 𝘕𝘪𝘤𝘦! 𝘕𝘦𝘸 𝘱𝘢𝘺𝘮𝘦𝘯𝘵 𝘮𝘦𝘵𝘩𝘰𝘥 𝘢𝘥𝘥𝘦𝘥 ✅ ⤾
 
