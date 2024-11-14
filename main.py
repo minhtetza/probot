@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAE15R8U8HTHUNpc-Vv2_eZoCd4fz5qr4-k"
+token = "7336963132:AAEiWkY18HAyCdK2Ln3WOdN4lBLQnnij0FI"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -1978,7 +1978,7 @@ def respond_to_vhk(message):
         try:
             last = str(Tele5(cc))
         except:
-            last = 'Gateway Error ❌'
+            last = 'Your card was declined!'
         end_time = time.time()
         execution_time = end_time - start_time
 
