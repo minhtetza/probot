@@ -20,7 +20,7 @@ import time
 from telebot import types
 
 stopuser = {}
-token = "7336963132:AAFycTAYlU2V4uRw9bmbjol39_G1-1bB8kY"
+token = "7336963132:AAFAhHU0wkGjejgn8ovhML8tX58ZdwnWlhI"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
@@ -1976,7 +1976,7 @@ def respond_to_vhk(message):
         ko = bot.reply_to(message, '𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐂𝐚𝐫𝐝 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 ...⌛').message_id
         start_time = time.time()
         try:
-            last = str(Tele4(cc))
+            last = str(Tele5(cc))
         except:
             last = 'Gateway Error ❌'
         end_time = time.time()
@@ -1987,7 +1987,7 @@ def respond_to_vhk(message):
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
-<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: ⤿ 𝘚𝘛𝘙𝘐𝘗𝘌 𝘈𝘜𝘛𝘏 🟢 ⤾		
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
 
 {str(dato(cc[:6]))}
@@ -2000,8 +2000,8 @@ def respond_to_vhk(message):
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
-<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: ⤿ 𝘚𝘛𝘙𝘐𝘗𝘌 𝘈𝘜𝘛𝘏 🟢 ⤾		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: ⤿ 𝘕𝘪𝘤𝘦! 𝘕𝘦𝘸 𝘱𝘢𝘺𝘮𝘦𝘯𝘵 𝘮𝘦𝘵𝘩𝘰𝘥 𝘢𝘥𝘥𝘦𝘥 ✅ ⤾
 
 {str(dato(cc[:6]))}
 
@@ -2013,8 +2013,8 @@ def respond_to_vhk(message):
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/addlist/u2A-7na8YtdhZWVl'>┃</a>𝐂𝐂 <code>{cc}</code>
 j<a href='t.me/addlist/u2A-7na8YtdhZWVl'>┗━━━━━━━⊛</a>
-<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE</code>		
-<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{last}</code>
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: ⤿ 𝘚𝘛𝘙𝘐𝘗𝘌 𝘈𝘜𝘛𝘏 🟢 ⤾		
+<a href='t.me/addlist/u2A-7na8YtdhZWVl'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: ⤿ 𝘕𝘪𝘤𝘦! 𝘕𝘦𝘸 𝘱𝘢𝘺𝘮𝘦𝘯𝘵 𝘮𝘦𝘵𝘩𝘰𝘥 𝘢𝘥𝘥𝘦𝘥 ✅ ⤾
 
 {str(dato(cc[:6]))}
 
